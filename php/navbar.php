@@ -6,5 +6,5 @@
         <a href="<?php echo $links ?>"><?php echo $nameItems ?></a>
         <?php endforeach; ?>
     </div>
-    <a class="main-navigation" href="#links"><img src="Images/batlogo.png" alt=""></a>
+    <a class="main-navigation" href="#links"><img src="../Images/batlogo.png" alt=""></a>
 

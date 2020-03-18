@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CV de Batman</title>
+        <title>CV Julien Gault</title>
         <link rel="stylesheet" href="CSS/style.css">
         <meta name="author" content="Julien Gault">
     </head>
