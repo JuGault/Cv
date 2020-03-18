@@ -6,51 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Batman</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <meta name="author" content="Julien Gault, Julien Jourden, Anthony Rossignol, Yannice Maladin, Oleg Chenesseau">
+    <meta name="author" content="Julien Gault">
 </head>
 
 <body>
-    <div class="links" id="links">
-        <!--<a href="#haut"><img class="home" src="Images/batlogo.png" alt=""></a>-->
-        <a href="#competences">Compétences</a>
-        <a href="#projets">Expériences</a>
-        <a href="#sectionmobile">Mobilité</a>
-        <a href="#recommandations">Recommandations</a>
-        <a href="#contact">Contact</a>
-        <a href="#" class="close">X</a>
-    </div>
-    <a class="main-navigation" href="#links"><img src="Images/batlogo.png" alt=""></a>
-
-    <header id="haut">
-
-        <div class="description">
-            <div class="speatch">
-                <div id="noms">
-                    <h1>Batman</h1>
-                    <p>Un justicier dans votre ville</p>
-                </div>
-                <div id="demande">
-                    <p>Actuellement en poste officieusement à Gotham City, je cherche à donner un nouvel élan à ma carrière. Je suis à la recherche d'un emploi dans le domaine de la sécurité privée aux alentours d'Orléans. Discret, minutieux et magnanime, je saurai mettre mes compétences à votre service. </p>
-                </div>
-            </div>
-
-            <div class="batman-pic">
-
-            </div>
-
-
-
-        </div>
-
-    </header>
-    <nav class="headernav" id="headernav">
-        <a href="#haut"><img class="pix-home" src="Images/batlogo.png" alt=""></a>
-        <a href="#competences">Compétences</a>
-        <a href="#projets">Expériences</a>
-        <a href="#sectionmobile">Mobilité</a>
-        <a href="#recommandations">Recommandations</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<?=
+    include 'php/navbar.php';
+?>
+<?=
+    include 'php/header.php';
+?>
 
     <main>
         <section id="competences">
