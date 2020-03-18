@@ -1,0 +1,181 @@
+@keyframes move_left {
+    12.5% {
+        transform: translateX(-1px);
+    }
+    25% {
+        transform: translateX(-2px);
+    }
+    37.5% {
+        transform: translateX(-3px);
+    }
+    50% {
+        transform: translateX(-4px);
+    }
+    62.5% {
+        transform: translateX(-5px);
+    }
+    75% {
+        transform: translateX(-6px);
+    }
+    87.5% {
+        transform: translateX(-7px);
+    }
+    100% {
+        transform: translateX(-8px);
+    }
+}
+@keyframes move_right {
+    12.5% {
+        transform: translateX(1px);
+    }
+    25% {
+        transform: translateX(2px);
+    }
+    37.5% {
+        transform: translateX(3px);
+    }
+    50% {
+        transform: translateX(4px);
+    }
+    62.5% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(6px);
+    }
+    87.5% {
+        transform: translateX(7px);
+    }
+    100% {
+        transform: translateX(8px);
+    }
+}
+.button {
+    background-image: url(../Images/batman-button.png);
+    background-size: cover;
+    width: 61px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: var(--dark);
+    background-color: #ffd530;
+    transition: box-shadow 1s;
+}
+.formulaire_mail button {
+    align-self: flex-end;
+    margin-top: var(--spacing);
+}
+
+.formulaire_mail button:hover {
+    box-shadow: 15px -15px 10px 2px rgb(248, 194, 0);
+    animation: 1s 1 forwards move_right;
+}
+.formulaire_tel button:hover {
+    box-shadow: -15px -15px 10px 2px rgb(248, 194, 0);
+    animation: 1s 1 forwards move_left;
+}
+#contact {
+    background-image: url("../background/batman-projector.png");
+    background-size: cover;
+    margin: 0;
+    padding-bottom: var(--spacing);
+    }
+.contact {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    }
+.formulaire_mail,
+.formulaire_tel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: none;
+    height: 400px;
+    }
+.formulaire_mail textarea {
+    width: 420px;
+    }
+.formulaire_mail input {
+    width: 420px;
+    height: 40px;
+}
+.formulaire_tel input {
+    width: 320px;
+    height: 40px;
+    }
+.time {
+    align-self: center;
+    text-align: center;
+    }
+.time_label {
+    align-self: center;
+}
+.time input {
+    width: 120px;
+    }
+legend {
+    font-family: var(--title-font);
+    font-size: var(--medium-size);
+    }
+
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulaire_mail,
+    .formulaire_tel {
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: center;
+        border: none;
+        height: 430px;
+    }
+    .formulaire_mail {
+        margin-bottom: var(--spacing);
+    }
+    .formulaire_mail button {
+        align-self: center;
+    }
+    .formulaire_mail legend,
+    .formulaire_tel legend {
+        width: auto;
+        margin: 0 auto;
+    }
+    .formulaire_mail textarea {
+        width: 320px;
+    }
+    .formulaire_mail input {
+        width: 320px;
+        height: 40px;
+    }
+    .formulaire_mail button:hover,
+    .formulaire_tel button:hover {
+        box-shadow: 0px 0px 0px 0px;
+        animation: 0s 0;
+    }
+    .formulaire_mail label,
+    .formulaire_tel label {
+        margin-top: var(--spacing);
+        margin-bottom: var(--spacing-sm);
+    }
+    .time input {
+        margin-bottom: var(--spacing);
+    }
+}
+@media only screen and (max-width: 768px) {
+    #contact {
+        background-image: url(../background/dark_leather.png);
+    }
+}
+@media only screen and (min-width: 769px) {
+    #contact {
+        height: 720px;
+    }
+}
+
+
