@@ -1,13 +1,21 @@
+<?php
+    $firstname = 'Julien Gault';
+    $posteDescription = 'Devellopeur Web et Mobile';
+    $presentation = 'Actuellement en formation à la "Wild Code School" , je suis à la recherche d\'un stage pour concrétiser ma formation.';
+?>
+
+
+
 <header id="haut">
 
     <div class="description">
         <div class="speatch">
             <div id="noms">
-                <h1>Batman</h1>
-                <p>Un justicier dans votre ville</p>
+                <h1><?php echo $firstname ?></h1>
+                <p><?php echo $posteDescription ?></p>
             </div>
             <div id="demande">
-                <p>Actuellement en poste officieusement à Gotham City, je cherche à donner un nouvel élan à ma carrière. Je suis à la recherche d'un emploi dans le domaine de la sécurité privée aux alentours d'Orléans. Discret, minutieux et magnanime, je saurai mettre mes compétences à votre service. </p>
+                <p><?php echo $presentation?></p>
             </div>
         </div>
 

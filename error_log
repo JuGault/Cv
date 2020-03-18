@@ -1,0 +1,12 @@
+[18-Mar-2020 18:36:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/header.php on line 14
+[18-Mar-2020 18:36:42 UTC] PHP Stack trace:
+[18-Mar-2020 18:36:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 18:36:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:18
+[18-Mar-2020 18:36:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/header.php on line 15
+[18-Mar-2020 18:36:42 UTC] PHP Stack trace:
+[18-Mar-2020 18:36:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 18:36:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:18
+[18-Mar-2020 18:36:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/header.php on line 18
+[18-Mar-2020 18:36:42 UTC] PHP Stack trace:
+[18-Mar-2020 18:36:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 18:36:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:18
