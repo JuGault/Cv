@@ -7,7 +7,7 @@
  }
 
 #competences ul li{
-    border-radius: 100%;
+    border-radius: 20%;
     height: 340px;
     width: 340px;
     display: flex;
@@ -29,7 +29,9 @@
 #competences ul li:nth-of-type(3){
     background-image: url("../Images/Compétences/competences_justice.jpg");
 }
-
+ #competences ul li:nth-of-type(4){
+     background-image: url("../Images/php.jpg");
+ }
 #competences ul li:hover{
     box-shadow:inset 0 0 0 200px rgba(0,0,0,0.75);
 }

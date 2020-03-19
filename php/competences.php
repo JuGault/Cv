@@ -1,8 +1,9 @@
 <?php
     $competences = [
-        'Disrétion' => 'Grâce à mes nombreuses missions d\'infiltration de nuit dans les quartiers difficiles de Gotham, j\'ai acquis une discretion quasi surnaturelle me permettant de prendre les malfrats sur le fait.',
-        'Investigation' => 'N\'ayant pas usurpé le titre de plus grand détective du monde, je suis à même de déjouer les plans machiavéliques de n\'importe quel adversaire, même les plus fourbes.',
-        'Justice' => 'Par l\'alliance de mes capacités physiques hors-normes et de mes bat-gadgets fabriqués maison, les bandits n\'échappent plus au joug sacré de la justice des hommes.',
+        'HTML' => 'Maitrise des bases de la création de page hmtl',
+        'CSS' => 'Utilisation du CSS pour styliser les pages HTML',
+        'Responsive Design' => 'Maitrise du responsive design pour dévellopement mobile et desktop',
+        'PHP' => 'Maitrise du language PHP pour dynamiser les sites Web',
     ];
 ?>
 
