@@ -16,38 +16,33 @@
 #experiences {
     display: flex;
     justify-content: space-evenly;
+
 }
 
 
 #experiences h3 {
     text-align: center;
+    text-decoration: underline;
 }
 
 #references {
     display: flex;
-    justify-content: space-around;
-    height: 50vh;
-    flex-wrap: wrap;
-    width: 600px;
-    align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+    height: 300px;
 }
 
 
-#references img {
+/*#references img {
     width: 15vw;
-}
+}*/
 
-#references img:hover {
+/*#references img:hover {
     animation: animation 0.3s infinite;
     width: 11.2em;
-}
+}*/
 
 
-#enfants {
-    /*    margin-bottom: 100px;*/
 
-}
 
 #formation {
     display: flex;
@@ -55,12 +50,8 @@
     height: 300px;
 }
 
-#formation img {
-    margin-top: 50px;
-    width: 400px
-}
 
-#formation p {
+#experiences p {
     text-align: center;
     margin: auto;
 }
