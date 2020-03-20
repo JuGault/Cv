@@ -1,17 +1,20 @@
 #haut {
     display: flex;
     justify-content: center;
-    box-shadow: inset 0 0 0 2000px var(--dark);
-    background-image: url("../background/batman.jpg");
-    overflow: hidden;
-    height: 93.5vh;
+    /*background-image: url("../background/47192661-blue-white-lines-and-circles-abstract-background-vector.jpg");*/
+    height: 600px;
+   /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;*/
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,244,1) 100%);
 }
 
 .description {
     display: flex;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     height: 100%;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 h1 {
@@ -51,28 +54,31 @@ h1 {
 }
 
 .speatch {
-    width: 50%;
+    margin-left: 4%;
     height: 100%;
 }
 
-.batman-pic{
-    background-image: url("../Images/entete_large.jpg");
-    height: 610px;
-    width: 610px;
-    border-radius: 100%;
+.My-picture {
 
+    width: 100%;
+    transform: rotate(0.25turn);
+    clip-path: circle(31.05% at 410px 286px);
+    display: flex;
+    justify-content: center;
 }
-
+.My-picture img {
+    height: 100%;
+}
 .pix-home {
     height: 20px;
 }
 
 @media screen and (max-width: 1200px){
-    .batman-pic{
+ /*   .batman-pic{
         background-image: url("../Images/entete_med.jpg");
         height: 500px;
         width: 500px;
-    }
+    }*/
     #demande p {
         font-size: 20pt;
     }
@@ -91,11 +97,11 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    .batman-pic{
+  /*  .batman-pic{
         background-image: url("../Images/entete_reg.jpg");
         height: 300px;
         width: 300px;
-    }
+    }*/
     #demande p {
         font-size: 2vh;
     }

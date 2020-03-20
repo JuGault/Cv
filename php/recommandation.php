@@ -1,6 +1,6 @@
 <section id="recommandations">
     <div class="titres">
-        <h2>Recommandations</h2>
+        <h2><span></span>Recommandations<span></span></h2>
     </div>
     <div class="shilling">
         <div class="reco">

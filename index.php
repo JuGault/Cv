@@ -10,13 +10,14 @@
     </head>
 
     <body>
-
         <?php
-            include 'php/navbar.php';
+        include 'php/navbar.php';
         ?>
+
         <?php
             include 'php/header.php';
         ?>
+
         <?php
             include 'php/navbar2.php';
         ?>
@@ -33,10 +34,6 @@
 
             <?php
                 include 'php/experiences.php';
-            ?>
-
-            <?php
-                include 'php/mobility.php';
             ?>
 
             <?php

@@ -1,7 +1,7 @@
 <section id="contact">
 
     <div class="titres">
-        <h2>Me contacter</h2>
+        <h2><span></span>Me contacter<span></span></h2>
     </div>
     <div class="contact">
         <form action="test.php" method="POST" id="formulaire_mail">

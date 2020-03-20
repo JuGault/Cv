@@ -1,6 +1,6 @@
 <section id="projets">
     <div class="titres">
-        <h2 id="xp">Expérience</h2>
+        <h2 id="xp"><span></span>Expérience<span></span></h2>
     </div>
     <h3 id="arrestations">Arrestations</h3>
     <ul>

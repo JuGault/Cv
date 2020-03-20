@@ -19,8 +19,8 @@
             </div>
         </div>
 
-        <div class="batman-pic">
-
+        <div class="My-picture">
+                <img src="../Images/Moi.JPG" alt="Photo Julien Gault">
         </div>
 
 

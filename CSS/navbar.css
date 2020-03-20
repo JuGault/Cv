@@ -28,8 +28,8 @@ header {
 
 
 .headernav a:hover {
-    background-color: var(--dark);
-    color: var(--main-color);
+   /* background-color: var(--dark);*/
+    color: var(--light);
     text-decoration: underline;
 
 }
