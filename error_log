@@ -179,3 +179,35 @@
 [22-Mar-2020 15:26:33 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
 [22-Mar-2020 15:26:33 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
 [22-Mar-2020 15:27:32 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28

@@ -7,10 +7,10 @@
         'SQL' => 20,
     ];
     $softSkills = [
-        'Ouverture d\'esprit et curiosité' => ['curieux','observateur', 'envie d\'apprendre'], [80],
-        'Esprit et travail d\'équipe' => ['sociable', 'travail en réseaux', 'formation transmission du savoir'], [70],
-        'Adaptabilité' => ['adaptable', 'attentif', 'coopératif', 'respectueux'], [90],
-        'Communication' => ['gestion de conflit', 'lecture language corporel', 'sens de l\'écoute', 'négociation', 'ect..'],[90],
+        'Ouverture d\'esprit et curiosité' => ['curieux', ',', 'observateur', ',', 'envie d\'apprendre'],
+        'Esprit et travail d\'équipe' => ['sociable', ',', 'travail en réseaux', ',', 'formation transmission du savoir'],
+        'Adaptabilité' => ['adaptable', ',', 'attentif', ',', 'coopératif', ',', 'respectueux'],
+        'Communication' => ['gestion de conflit', ',', 'lecture language corporel', ',', 'sens de l\'écoute', ',', 'négociation', ',', 'ect..'],
     ];
 ?>
 
@@ -30,12 +30,18 @@
 
                 <?php foreach ($competences as $comp => $textDescription) : ?>
                 <div>
-                        <span></span><p><?php echo $comp ?></p>
-                        <progress max="100" value="<?php echo $textDescription ?>"></progress>
-                        <p><?php echo $textDescription ?></p>
+                    <div>
+
+                        <p class="tittle-hard-skill"><span></span><?php echo $comp ?></p>
+                        <div class="proggress"  style=" width: <?php echo $textDescription/5 ?>%;"></div>
+
+                        <p class="value-skill"><?php echo $textDescription ?>%</p>
 
 
+                    </div>
                 </div>
+
+
                 <?php endforeach; ?>
         </div>
         <hr>
@@ -47,7 +53,7 @@
             <div>
                 <?php foreach ($softSkills as $skills => $skillItem) : ?>
                     <p><span></span><?php echo $skills . ' : ' ?></p>
-                    <p><?php foreach ($skillItem as $info ) : echo $info . "\n" ?><?php endforeach; ?></p>
+                    <p>( <?php foreach ($skillItem as $info ) : echo $info . "\n" ?><?php endforeach; ?> )</p>
 
                 <?php endforeach; ?>
             </div>
