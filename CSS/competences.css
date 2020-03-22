@@ -1,127 +1,63 @@
- #competences ul{
-     display: flex;
-     justify-content: space-evenly;
-     flex-wrap: wrap;
-     list-style: none;
-     margin: var(--spacing);
- }
 
-#competences ul li{
-    border-radius: 20%;
-    height: 340px;
-    width: 340px;
+.skills {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: none;
-    margin: var(--spacing);
-    /*background-color: var(--dark-sec);*/
+    width: 100%;
+}
+.skills img {
+    height: 50px;
+    margin-right: 2%;
 }
 
-#competences ul li:nth-of-type(1){
-    background-image: url("../Images/html-5-logo-png-transparent.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
+.hard-skills {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
 }
-
-#competences ul li:nth-of-type(2){
-    background-image: url("../Images/CSS3_logo_and_wordmark.svg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.hard-skills div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
-
-#competences ul li:nth-of-type(3){
-    background-image: url("../Images/svg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
- #competences ul li:nth-of-type(4){
-     background-image: url("../Images/pngtree-vector-php-icon-png-image_4267500.jpg");
-     background-size: contain;
+.hard-skills progress {
+    margin: auto;
  }
 
-#competences ul li:hover{
-    box-shadow:inset 0 0 0 200px rgba(0,0,0,0.75);
+.soft-skills {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
 }
-
-.comp_description{
-    display: none;
+.soft-skills div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
-
-#competences ul li:hover .comp_description{
-    display: inline;
-    margin: var(--spacing-lg);
-    text-align: center;
+.soft-skills span , .hard-skills span {
+     width: 15px;
+     height: 15px;
+     border: 3px solid var(--main-color);
+     display: inline-block;
+     margin: 0 12px;
+     border-radius: 50%;
+ }
+.hard-skills .title-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
 }
-
-#competences ul li .comp_nom{
-    font-size: var(--medium-size);
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 4px;
+.soft-skills .title-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
 }
-
-#competences ul li:hover .comp_nom{
-    display: none;
-}
-
-@media screen and (max-width: 768px){
-    #competences ul li{
-        position: relative;
-        box-shadow:inset 0 0 0 200px rgba(0,0,0,0.75);
-    }
-    .comp_description{
-        display: inline;
-        text-align: center;
-        margin: var(--spacing-lg);
-        border-radius: 4px;
-    }
-
-
-    #competences ul li .comp_nom{
-        display: inline;
-        position: absolute;
-        top: 30px;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0);
-    }
-    #competences ul li:hover .comp_nom{
-        display: inline;
-    }
+@media screen and (max-width: 768px) {
 
 }
 
 @media screen and (max-width: 460px){
-    #competences ul li{
-        height: 220px;
-        width: 220px;
-    }
-    #competences ul li:hover .comp_description{
-        display: none;
-    }
-    #competences ul li:hover .comp_nom{
-        display: inline;
-    }
-    .comp_description{
-        display: none;
-    }
 
-    #competences ul li .comp_nom{
-        top: 95px;
-    }
-
-    #competences ul li:nth-of-type(1){
-        background-image: url("../Images/Compétences/competences_discretion_small.jpg");
-    }
-    
-    #competences ul li:nth-of-type(2){
-        background-image: url("../Images/Compétences/competences_investigation_small.jpg");
-    }
-    
-    #competences ul li:nth-of-type(3){
-        background-image: url("../Images/Compétences/competences_justice_small.jpg");
-    }
 }

@@ -47,7 +47,10 @@
     border-radius: 50%;
 }
 
-
+hr {
+    margin-right: 5%;
+    margin-left: 5%;
+}
 
 #formation {
     display: flex;
