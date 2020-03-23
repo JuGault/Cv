@@ -1,20 +1,8 @@
-#haut {
-    display: flex;
-    justify-content: center;
-    height: 94vh;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,244,1) 100%);
-    width: 100%;
-}
+/* CONTAINER */
 
 .description {
     display: flex;
     height: 100%;
-}
-
-h1 {
-    font-size: 7vw;
-
 }
 
 #noms {
@@ -24,15 +12,6 @@ h1 {
     justify-content: center;
     height: 50%;
 }
-
-#noms p {
-    font-size: 3vw;
-    text-align: center;
-    padding: 5%;
-}
-
-
-
 #demande {
     display: flex;
     align-items: center;
@@ -41,42 +20,52 @@ h1 {
     margin-left: 2%;
     padding-bottom: 2%;
 }
-
-#demande p {
-    font-size: 28pt;
-}
-
 .speatch {
     margin-left: 4%;
     height: 100%;
+    width: 50%;
 }
 
+/* TEXT */
+h1 {
+    font-size: 7vh;
+
+}
+#noms p {
+    font-size: 5vh;
+    text-align: center;
+    padding: 5%;
+}
+
+
+#demande p {
+    font-size: 4vh;
+}
+
+/* BACKGROUND */
+#haut {
+    display: flex;
+    justify-content: center;
+    height: 94vh;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,244,1) 100%);
+    width: 100%;
+}
 .My-picture {
 
-    width: 100%;
+    width: 50%;
     align-items:center;
 
     display: flex;
     justify-content: center;
 }
 .My-picture img {
-    height: 50%;
+    height: 65%;
     transform: rotate(0.25turn);
     clip-path: circle(50%);
 }
 .pix-home {
     height: 20px;
-}
-
-@media screen and (max-width: 1200px){
- /*   .batman-pic{
-        background-image: url("../Images/entete_med.jpg");
-        height: 500px;
-        width: 500px;
-    }*/
-    #demande p {
-        font-size: 20pt;
-    }
 }
 
 @media screen and (max-width: 980px){
@@ -92,11 +81,7 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /*  .batman-pic{
-        background-image: url("../Images/entete_reg.jpg");
-        height: 300px;
-        width: 300px;
-    }*/
+
     #demande p {
         font-size: 2vh;
     }

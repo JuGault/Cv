@@ -29,18 +29,14 @@
                 </div>
 
                 <?php foreach ($competences as $comp => $textDescription) : ?>
-                <div>
                     <div>
 
                         <p class="tittle-hard-skill"><span></span><?php echo $comp ?></p>
-                        <div class="proggress"  style=" width: <?php echo $textDescription/5 ?>%;"></div>
+                        <div class="proggress"  style=" width: <?php echo $textDescription/5 ?>%;"><?php echo $textDescription ?>%</div>
 
-                        <p class="value-skill"><?php echo $textDescription ?>%</p>
 
 
                     </div>
-                </div>
-
 
                 <?php endforeach; ?>
         </div>

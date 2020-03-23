@@ -19,7 +19,6 @@ header {
     padding: var(--spacing);
     font-family: var(--title-font);
     text-decoration: none;
-    /*font-size: 2vw;*/
     background-color: var(--main-color);
     transition-property: background-color;
     transition-duration: 0.5s;

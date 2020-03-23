@@ -8,8 +8,8 @@
     margin-right: 2%;
 }
 .soft-skills span , .hard-skills span {
-    width: 15px;
-    height: 15px;
+    width: 1vw;
+    height: 1vw;
     border: 3px solid var(--main-color);
     display: inline-block;
     margin: 1%;
@@ -20,22 +20,29 @@
     display: flex;
     width: 50%;
     flex-direction: column;
+    box-shadow: 1px 5px 22px 8px #161616;
+    height: min-content;
+    align-self: center;
 }
 .hard-skills div {
     display: flex;
-    justify-content: space-between;
+    /*align-items: center;*/
     width: 100%;
     margin-bottom: 2%;
     margin-top: 2%;
+
 }
 .hard-skills .proggress {
     position: absolute;
+    display: flex;
+    justify-content: center;
     left: 25%;
     width: 20%;
     margin: 0px;
     background-color: var(--main-color);
-    height: 3%;
+    height: 1.4vw;
     border-radius: 6px;
+    font-size: 1.3vw;
  }
 
 .hard-skills .title-skill {
@@ -47,8 +54,10 @@
 .hard-skills .tittle-hard-skill {
     display: flex;
     width: 50%;
+    align-items: center;
 }.tittle-hard-skill span {
      margin-right: 2%;
+
  }
 /* SOFT-SKILL */
 
@@ -58,9 +67,10 @@
     width: 20%;
     margin: 0px;
     background-color: var(--main-color);
-    height: 3%;
+    height: 1.6vw;
     border-radius: 6px;
     text-align: center;
+    font-size: 1.4vw;
 
 }
 
@@ -68,15 +78,16 @@
     display: flex;
     width: 50%;
     flex-direction: column;
+    box-shadow: 1px 5px 22px 8px #161616;
 }
 .soft-skills div {
 
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     width: 100%;
     margin-bottom: 2%;
     margin-top: 2%;
+
 }
 
 .soft-skills .title-skill {
@@ -84,17 +95,21 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 5%;
+    flex-direction: row;
 }
 
 .soft-skills .tittle-soft-skill {
     display: flex;
     width: 50%;
+    align-items: center;
+
 }
 .tittle-soft-skill span {
      margin-right: 2%;
  }
 .precisionSkill {
     margin: 2%;
+    margin-left: 3%;
 
 }
 @media screen and (max-width: 768px) {

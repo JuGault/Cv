@@ -37,10 +37,6 @@
             ?>
 
             <?php
-                include 'php/recommandation.php';
-            ?>
-
-            <?php
                 include 'php/contact.php';
             ?>
         </main>

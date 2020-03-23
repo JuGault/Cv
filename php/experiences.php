@@ -12,7 +12,10 @@
 
                 ?>
                 <?php foreach ($professionalExperience as $nomPoste => $poste) : ?>
-                    <p><span></span><?php echo $nomPoste . ' à ' ?><?php foreach ($poste as $info ) : echo $info . "\n" ?><?php endforeach; ?></p>
+                <div>
+                    <span></span><p><?php echo $nomPoste . ' à ' ?><?php foreach ($poste as $info ) : echo $info . "\n" ?><?php endforeach; ?></p>
+                </div>
+
                 <?php endforeach; ?>
             </div>
 
@@ -32,7 +35,10 @@
             ];
             ?>
             <?php foreach ($formation as $whatFormation => $keys) : ?>
-                <p><span></span><?php echo $whatFormation . ' à ' ?><?php foreach ($keys as $cara => $valor) : echo $valor ?><?php endforeach; ?></p>
+                <div>
+                    <span></span><p><?php echo $whatFormation . ' à ' ?><?php foreach ($keys as $cara => $valor) : echo $valor ?><?php endforeach; ?></p>
+                </div>
+
             <?php endforeach; ?>
         </div>
 
