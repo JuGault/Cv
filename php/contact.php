@@ -1,7 +1,22 @@
 <section id="contact">
-
+    <?php
+        $infoPerso = [
+            'Name' => ['Gault Julien'],
+            'Date of birth' => ['09.02.1991'],
+            'Address' => ['17 rue marie claude vaillant couturier 45120 Chalette sur Loing'],
+            'Phone' => ['06.33.65.87.60'],
+            'Mail' => ['jugault45@gmail.com'],
+        ];
+    $infoCompany = [
+        'Name' => ['Enter your name'],
+        'Company' => ['Enter name of your company'],
+        'Mail Address' => ['Enter your Email address'],
+        'Phone' => ['Enter your phone number'],
+    ];
+    $forwhichPosition = ['Apprentice', 'Web develloper / Mobile develloper'];
+    ?>
     <div class="titres">
-        <h2><span></span>Me contacter<span></span></h2>
+        <h2><span></span>Contact me<span></span></h2>
     </div>
     <div class="contact">
         <form action="test.php" method="POST" id="formulaire_mail">

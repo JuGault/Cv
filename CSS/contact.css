@@ -73,12 +73,7 @@
     box-shadow: -15px -15px 10px 2px rgb(248, 194, 0);
     animation: 1s 1 forwards move_left;
 }
-#contact {
-    background-image: url("../background/batman-projector.png");
-    background-size: cover;
-    margin: 0;
-    padding-bottom: var(--spacing);
-    }
+
 .contact {
     display: flex;
     align-items: stretch;

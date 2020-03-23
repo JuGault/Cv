@@ -23,6 +23,7 @@ header {
     transition-property: background-color;
     transition-duration: 0.5s;
     border-radius: 60%;
+    font-size: 1.5vw;
 }
 
 
