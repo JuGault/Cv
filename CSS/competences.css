@@ -7,7 +7,15 @@
     height: 50px;
     margin-right: 2%;
 }
-
+.soft-skills span , .hard-skills span {
+    width: 15px;
+    height: 15px;
+    border: 3px solid var(--main-color);
+    display: inline-block;
+    margin: 1%;
+    border-radius: 50%;
+}
+/* HARD-SKILLS */
 .hard-skills {
     display: flex;
     width: 50%;
@@ -26,43 +34,11 @@
     width: 20%;
     margin: 0px;
     background-color: var(--main-color);
-    height: 3.5%;
+    height: 3%;
     border-radius: 6px;
  }
 
-
-/*.hard-skills .value-skill {
-    position: absolute;
-    left: 35%;
-    z-index: 2;
-}*/
-
-.soft-skills {
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-}
-.soft-skills div {
-
-    width: 100%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-.soft-skills span , .hard-skills span {
-     width: 15px;
-     height: 15px;
-     border: 3px solid var(--main-color);
-     display: inline-block;
-     margin: 1%;
-     border-radius: 50%;
- }
 .hard-skills .title-skill {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-.soft-skills .title-skill {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,9 +48,55 @@
     display: flex;
     width: 50%;
 }.tittle-hard-skill span {
-    margin-right: 2%;
+     margin-right: 2%;
  }
+/* SOFT-SKILL */
 
+.soft-skills .proggress {
+    position: absolute;
+    left: 75%;
+    width: 20%;
+    margin: 0px;
+    background-color: var(--main-color);
+    height: 3%;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+.soft-skills {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.soft-skills div {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.soft-skills .title-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.soft-skills .tittle-soft-skill {
+    display: flex;
+    width: 50%;
+}
+.tittle-soft-skill span {
+     margin-right: 2%;
+ }
+.precisionSkill {
+    margin: 2%;
+
+}
 @media screen and (max-width: 768px) {
 
 }

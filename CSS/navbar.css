@@ -15,7 +15,7 @@ header {
 }
 
 .headernav a {
-    color: var(--dark);
+    color: var(--light);
     padding: var(--spacing);
     font-family: var(--title-font);
     text-decoration: none;

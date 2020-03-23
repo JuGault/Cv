@@ -7,10 +7,10 @@
         'SQL' => 20,
     ];
     $softSkills = [
-        'Ouverture d\'esprit et curiosité' => ['curieux', ',', 'observateur', ',', 'envie d\'apprendre'],
-        'Esprit et travail d\'équipe' => ['sociable', ',', 'travail en réseaux', ',', 'formation transmission du savoir'],
-        'Adaptabilité' => ['adaptable', ',', 'attentif', ',', 'coopératif', ',', 'respectueux'],
-        'Communication' => ['gestion de conflit', ',', 'lecture language corporel', ',', 'sens de l\'écoute', ',', 'négociation', ',', 'ect..'],
+        'Ouverture d\'esprit et curiosité' =>['précisionskill' => ['curieux', 'observateur', 'envie d\'apprendre'], 'percent' => [70]],
+        'Esprit et travail d\'équipe' => [ 'précisionskill' => ['sociable', 'travail en réseaux', 'formation transmission du savoir'], 'percent' => [70]],
+        'Adaptabilité' => [ 'précisionskill' => ['adaptable', 'attentif', 'coopératif', 'respectueux'], 'percent' => [60]],
+        'Communication' => [ 'précisionskill' => ['gestion de conflit', 'lecture language corporel', 'sens de l\'écoute', 'négociation', 'ect..'], 'percent' => [80]],
     ];
 ?>
 
@@ -52,8 +52,14 @@
             </div>
             <div>
                 <?php foreach ($softSkills as $skills => $skillItem) : ?>
-                    <p><span></span><?php echo $skills . ' : ' ?></p>
-                    <p>( <?php foreach ($skillItem as $info ) : echo $info . "\n" ?><?php endforeach; ?> )</p>
+                    <div>
+                        <p class="tittle-soft-skill"><span></span><?php echo $skills . ' : ' ?></p>
+                        <?php foreach ($skillItem['précisionskill'] as $info ) :
+                            $precisionSkills = implode(", ", $skillItem['précisionskill']); endforeach; ?>
+                        <p class="precisionSkill">( <?php echo $precisionSkills ?> )</p>
+                        <div class="proggress"  style=" width: <?php echo $skillItem['percent'][0]/5 ?>%;"><?php echo $skillItem['percent'][0] . '%' ?></div>
+                    </div>
+
 
                 <?php endforeach; ?>
             </div>
