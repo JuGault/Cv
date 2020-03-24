@@ -83,7 +83,9 @@ p {
 section {
     padding-top: 64px;
     margin-bottom: var(--spacing-lg);
+
 }
+
 
 @media screen and (max-width: 768px){
 

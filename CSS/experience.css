@@ -1,36 +1,16 @@
-@keyframes animationmove {
-    50% {
-        transform: rotate(-10deg);
-    }
-
-    100% {
-        transform: rotate(10deg);
-    }
-}
-
-#arrestations {
-    text-align: center;
-    padding-top: 1em;
-}
 
 #experiences {
     display: flex;
     justify-content: space-evenly;
-
-
+    height: 42vh;
 }
 
-
-#experiences h3 {
-    text-align: center;
-    text-decoration: underline;
-}
 
 #references {
     display: flex;
     flex-direction: column;
-    height: 300px;
-    box-shadow: 1px 5px 22px 8px #161616;
+    /*height: 300px;*/
+
 }
 .experience, .formation {
     margin-top: 2%;
@@ -38,7 +18,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
-
+    box-shadow: 1px 5px 22px 8px #161616;
+    padding: 2%;
 }
 .formation span , .experience span {
     width: 1vw;
@@ -57,18 +38,23 @@ hr {
 #formation {
     display: flex;
     flex-direction: column;
-    height: 300px;
-    box-shadow: 1px 5px 22px 8px #161616;
+    /*height: 300px;*/
+
 }
 
 .formation div {
     display: flex;
-
+    align-items: center;
 }
 .experience div {
     display: flex;
+    flex-direction: column;
 }
-
+.infoPoste {
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
 
 @media screen and (max-width: 768px) {
     #experiences {

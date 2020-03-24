@@ -46,7 +46,7 @@ h1 {
 #haut {
     display: flex;
     justify-content: center;
-    height: 94vh;
+    height: 93vh;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,244,1) 100%);
     width: 100%;

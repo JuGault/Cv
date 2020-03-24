@@ -1,4 +1,6 @@
-
+#competences {
+    height: 94vh;
+}
 .skills {
     display: flex;
     width: 100%;
@@ -23,6 +25,7 @@
     box-shadow: 1px 5px 22px 8px #161616;
     height: min-content;
     align-self: center;
+    padding: 2%;
 }
 .hard-skills div {
     display: flex;
@@ -38,7 +41,7 @@
     justify-content: center;
     left: 25%;
     width: 20%;
-    margin: 0px;
+    margin: 0;
     background-color: var(--main-color);
     height: 1.4vw;
     border-radius: 6px;
@@ -65,7 +68,7 @@
     position: absolute;
     left: 75%;
     width: 20%;
-    margin: 0px;
+    margin: 0;
     background-color: var(--main-color);
     height: 1.6vw;
     border-radius: 6px;
@@ -79,6 +82,7 @@
     width: 50%;
     flex-direction: column;
     box-shadow: 1px 5px 22px 8px #161616;
+    padding: 0 2%;
 }
 .soft-skills div {
 
@@ -108,8 +112,7 @@
      margin-right: 2%;
  }
 .precisionSkill {
-    margin: 2%;
-    margin-left: 3%;
+    margin: 2% 2% 2% 3%;
 
 }
 @media screen and (max-width: 768px) {

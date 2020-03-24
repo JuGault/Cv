@@ -13,7 +13,9 @@
                 ?>
                 <?php foreach ($professionalExperience as $nomPoste => $poste) : ?>
                 <div>
-                    <span></span><p><?php echo $nomPoste . ' à ' ?><?php foreach ($poste as $info ) : echo $info . "\n" ?><?php endforeach; ?></p>
+                    <p><span></span><?php echo $nomPoste . ' : ' ?></p>
+                    <?php $infoPoste = implode( " en ", $poste) ?>
+                    <p class="infoPoste"><?php echo $infoPoste ; ?></p>
                 </div>
 
                 <?php endforeach; ?>
