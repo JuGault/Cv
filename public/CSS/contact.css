@@ -201,3 +201,36 @@ input[type="checkbox"]:checked {
         margin: 3% 0;
     }
 }
+@media screen and (max-width: 414px){
+    .area-group textarea {
+        height: 150px;
+        resize: none;
+        margin-bottom: 15px;
+        padding: 0px;
+        font-size: 16px;
+        font-family: var(--main-font);
+        color: var(--light);
+        text-transform: capitalize;
+        /* outline: 1px solid transparent;*/
+        border: 1px solid var(--main-color);
+        background: #201f1f;
+    }
+    iframe {
+        display: none;
+    }
+    .contact {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .contact-info {
+
+        width: 100%;
+        align-items: center;
+    }
+    .general-info p {
+        font-size: 4vw;
+    }
+    #formulaire_mail {
+        width: 100%;
+    }
+}

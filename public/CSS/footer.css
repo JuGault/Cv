@@ -34,3 +34,30 @@ footer {
     text-decoration: none;
     color: var(--dark);
 }
+@media screen and (max-width: 414px){
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: var(--dark);
+        padding: 16px 0;
+    }
+
+    .copyright {
+        color: var(--main-color);
+        width: 30vw;
+        font-size: var(--medium-size);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_links {
+        width: 40vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer_links li a img {
+        height: 31px;
+        width: 31px;
+    }
+}

@@ -69,12 +69,16 @@
         <form action="" method="post" id="formulaire_mail">
             <fieldset>
                 <div class="input-group">
+                    <label for="name"></label>
                     <input value="<?= $data['Name'] ?? '' ?>" type="text" placeholder="Enter your Name" id="name" name="Name">
                         <div class="errors"><?= $errors['Name'] ?? '' ?></div>
+                    <label for="Company"></label>
                     <input value="<?= $data['Company'] ?? '' ?>" type="text" placeholder="Company " id="Company" name="Company">
                         <div class="errors"><?= $errors['Company'] ?? '' ?></div>
+                    <label for="email"></label>
                     <input value="<?= $data['email'] ?? '' ?>" type="email" placeholder="Enter Your Email address " id="email" name="email">
                         <div class="errors"><?= $errors['email'] ?? '' ?></div>
+                    <label for="phonenumber"></label>
                     <input value="<?= $data['phone'] ?? '' ?>" type="text" placeholder="Enter your phone Number" id="phonenumber" name="phone">
                     <div class="errors"><?= $errors['phone'] ?? '' ?></div>
                 </div>
@@ -90,6 +94,7 @@
                             </div>
                         <?php endforeach; ?>
                     </div>
+                    <label for="message"></label>
                     <textarea name="message" id="message" placeholder="Write your message"></textarea>
                     <button class="btn ">Submit</button>
                 </div>

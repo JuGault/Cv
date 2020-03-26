@@ -64,10 +64,7 @@ h1 {
 
 }
 .My-picture {
-
     width: 50%;
-    align-items:center;
-
     display: flex;
     justify-content: center;
 }
@@ -76,25 +73,70 @@ h1 {
     transform: rotate(0.25turn);
     clip-path: circle(50%);
 }
-.pix-home {
-    height: 20px;
-}
 
-/*@media screen and (max-width: 980px){
-    #demande {
-        height: 50%;
-        width: 80%;
-        margin: auto;
-    }
-    .speatch {
-        width: 40%;
-    }
-    
-}*/
 
 @media screen and (max-width: 788px) {
-#haut{
-    min-height: 50vh;
-}
+    #haut{
+        min-height: 50vh;
+    }
+    #noms p {
+        font-size: 3vw;
+    }
+
+
+    #demande p {
+        font-size: 2.5vw;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    .My-picture {
+
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .My-picture img {
+        height: 80%;
+    }
 }
 
+@media screen and (max-width: 414px){
+    #haut{
+        min-height: 100vh;
+    }
+    .description {
+        display: flex;
+        height: 100vh;
+        flex-direction: column-reverse;
+    }
+    .My-picture {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .My-picture img {
+        height: auto;
+        width: 90%;
+        transform: rotate(0.25turn);
+        clip-path: circle(50%);
+    }
+    .speatch {
+        margin: 4% 0;
+        width: 100%;
+        height: 50%;
+    }
+    #noms p {
+        font-size: 5vw;
+    }
+
+
+    #demande p {
+        font-size: 4vw;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+}

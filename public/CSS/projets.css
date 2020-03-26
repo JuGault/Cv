@@ -54,3 +54,19 @@
 
     }
 }
+@media screen and (max-width: 414px) {
+    .all-projects {
+        width: 100%;
+        margin: 0;
+        display: inline-block;
+        height: 100%;
+    }
+    .projects {
+        width: 80%;
+        height: auto;
+        display: flex;
+        text-align: center;
+        margin: 10% auto;
+
+    }
+}

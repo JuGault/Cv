@@ -93,3 +93,19 @@ hr {
         margin: 2%;
     }
 }
+@media screen and (max-width: 414px){
+    #references h2 {
+        width: 80%;
+    }
+    .infoPoste {
+        font-size: 3.5vw ;
+    }
+    .formation p {
+        font-size: 4vw;
+    }
+    .experience, .formation {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+

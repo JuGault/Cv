@@ -133,8 +133,7 @@
     .hard-skills {
         align-items: center;
         width: 80%;
-        margin: auto;
-        margin-bottom: 5%;
+        margin: auto auto 5%;
     }
     .hard-skills div {
         align-items: center;
@@ -151,8 +150,7 @@
     .soft-skills {
         align-items: center;
         width: 80%;
-        margin: auto;
-        margin-bottom: 5%;
+        margin: auto auto 5%;
     }
 
 
@@ -172,6 +170,26 @@
 
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 414px){
+    .hard-skills {
+        width: 100%;
+        margin: 10% auto 15%;
+    }
+    .hard-skills .tittle-hard-skill {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: start;
+    }
+    .soft-skills {
+        align-items: center;
+        width: 100%;
+        margin: 10% auto 10%;
+
+    }
+    .precisionSkill {
+        margin: 2% 2% 2% 3%;
+        font-size: 3.5vw;
+    }
 
 }

@@ -1,13 +1,12 @@
 @import "navbar.css";
 @import "contact.css";
-@import "recommandations.css";
 @import "competences.css";
 @import "projets.css";
 @import "footer.css";
 @import "experience.css";
 @import "header.css";
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oxanium&display=swap");
 
 
 :root {
@@ -122,9 +121,15 @@ section {
 }
 
 @media screen and (max-width: 414px){
- body{
-     width: 100%;
- }
+    h2 {
+        font-size: 8vw;
+    }
+    h3 {
+        font-size: 6vw;
+    }
+    p {
+        font-size: 4.5vw;
+    }
 }
 
 
