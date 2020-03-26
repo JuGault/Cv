@@ -984,3 +984,7 @@
 [26-Mar-2020 15:48:05 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
 [26-Mar-2020 15:48:05 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:37
 [26-Mar-2020 15:51:35 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 39
+[26-Mar-2020 21:06:10 UTC] PHP Notice:  Undefined variable: congratulation in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 58
+[26-Mar-2020 21:06:10 UTC] PHP Stack trace:
+[26-Mar-2020 21:06:10 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[26-Mar-2020 21:06:10 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:37

@@ -7,7 +7,11 @@
     margin-top: 2%;
     height: 100%;
 }
-
+.congratulation {
+    background: limegreen;
+    font-size: 30px;
+    text-align: center;
+}
 /* GAUCHE */
 
 
@@ -200,6 +204,9 @@ input[type="checkbox"]:checked {
     .single-check {
         margin: 3% 0;
     }
+    .congratulation {
+        font-size: 3vw;
+    }
 }
 @media screen and (max-width: 414px){
     .area-group textarea {
@@ -232,5 +239,8 @@ input[type="checkbox"]:checked {
     }
     #formulaire_mail {
         width: 100%;
+    }
+    .congratulation {
+        font-size: 5vw;
     }
 }

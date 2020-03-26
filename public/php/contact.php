@@ -41,6 +41,9 @@
         if (empty($data['phone'])){
             $errors['phone'] = 'The Phone number is empty';
         }
+        if (empty($errors)) {
+           $congratulation = 'Merci ' . htmlentities($data['Name']) . ' votre message a bien été envoyé je vous recontacte au plus vite.';
+        }
 
     }
 
@@ -52,6 +55,7 @@
     <div class="titres">
         <span></span><h2>Contact me</h2><span></span>
     </div>
+    <?php if (!empty($congratulation)) : ?><div class="congratulation"><?= $congratulation ?></div><?php endif; ?>
     <div class="contact">
         <div class="contact-info">
             <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.704406976699829%2C48.011745451766316%2C2.717850208282471%2C48.01817596352136&amp;layer=mapnik" style="border: 1px solid black"></iframe>

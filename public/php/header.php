@@ -1,6 +1,6 @@
 <?php
     $firstname = 'Julien Gault';
-    $posteDescription = 'Devellopeur Web et Mobile';
+    $posteDescription = 'Develloper Web et Mobile';
     $presentation = 'Actuellement en formation à la "Wild Code School" , je suis à la recherche d\'un stage pour concrétiser ma formation.';
 ?>
 
