@@ -1,0 +1,100 @@
+/* CONTAINER */
+
+.description {
+    display: flex;
+    height: 100%;
+}
+
+#noms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+}
+#demande {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-bottom: 2%;
+}
+.speatch {
+    margin-left: 4%;
+    width: 50%;
+}
+
+/* TEXT */
+h1 {
+    font-size: 3.5vw;
+    box-shadow: 1px 5px 22px 8px var(--main-color);
+    background: var(--dark-sec);
+    padding: var(--spacing);
+    border-radius: 20px;
+
+}
+#noms p {
+    font-size: 2.5vw;
+    text-align: center;
+    box-shadow: 1px 5px 22px 8px var(--main-color);
+    background: var(--dark-sec);
+    padding: var(--spacing);
+    border-radius: 20px;
+}
+
+
+#demande p {
+    font-size: 2vw;
+    box-shadow: 1px 5px 22px 8px var(--main-color);
+    background: var(--dark-sec);
+    padding: var(--spacing-lg);
+    border-radius: 20px;
+}
+
+/* BACKGROUND */
+#haut {
+    display: flex;
+    justify-content: center;
+    min-height: 93vh;
+    background-image: url("../background/blue-cyber-circuit-future-technology-concept-background_42077-1805.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.My-picture {
+
+    width: 50%;
+    align-items:center;
+
+    display: flex;
+    justify-content: center;
+}
+.My-picture img {
+    height: 65%;
+    transform: rotate(0.25turn);
+    clip-path: circle(50%);
+}
+.pix-home {
+    height: 20px;
+}
+
+/*@media screen and (max-width: 980px){
+    #demande {
+        height: 50%;
+        width: 80%;
+        margin: auto;
+    }
+    .speatch {
+        width: 40%;
+    }
+    
+}*/
+
+@media screen and (max-width: 788px) {
+#haut{
+    min-height: 50vh;
+}
+}
+

@@ -1,8 +1,5 @@
 <footer>
-    <ul class="coordonnees">
-        <li class="mail_batman"><a href="mailto:batman@gotham.cave" target="_blank"><img src="Images/signal.png" alt="Avion en papier">Batman@gotham.cave</a></li>
-        <li class="tel_batman"><a href="tel:+12123548844" target="_blank"><img src="Images/signal.png" alt="Téléphone mobile">(1)212-354-8844</a></li>
-    </ul>
+
 
     <ul class="footer_links">
         <li><a href="https://twitter.com/DCBatman" target="_blank"><img src="Images/twitter.svg" alt="Twitter"></a></li>

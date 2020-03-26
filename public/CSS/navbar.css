@@ -38,7 +38,7 @@ header {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
     .headernav {
         display: none;
     }
@@ -51,16 +51,11 @@ header {
         
     }
     .main-navigation img {
-        height: 10vw;
-        box-shadow: 0 0 5px 3px rgba(240, 248, 255, 0.568);
-        border-radius: 50%;
+        height: 8vw;
+
     }
     .links:target {
-      
-/*
-        position: fixed;
-        z-index: 1000;
-        top: 0;*/
+
         clip-path: circle(400% at 0 0);
     }
     .links {
@@ -89,9 +84,7 @@ header {
     .links a:active {
         text-decoration: underline;
     }
-    .home {
-        height: 30vw;
-    }
+
 
 }
 

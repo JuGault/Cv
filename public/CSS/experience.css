@@ -2,14 +2,18 @@
 #experiences {
     display: flex;
     justify-content: space-evenly;
-    height: 42vh;
+    min-height: 50vh;
+
+}
+#experiences .titres {
+    align-items: flex-end;
 }
 
 
 #references {
     display: flex;
     flex-direction: column;
-    /*height: 300px;*/
+
 
 }
 .experience, .formation {
@@ -18,8 +22,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
-    box-shadow: 1px 5px 22px 8px #161616;
+    box-shadow: 1px 5px 22px 8px var(--main-color);
     padding: 2%;
+    background: var(--dark);
 }
 .formation span , .experience span {
     width: 1vw;
@@ -38,7 +43,7 @@ hr {
 #formation {
     display: flex;
     flex-direction: column;
-    /*height: 300px;*/
+
 
 }
 
@@ -56,43 +61,35 @@ hr {
     margin-bottom: 5%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
     #experiences {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0;
+        display: inline-block;
     }
+
+    #experiences hr {
+        display: none;
+     }
 
     #references {
-        display: flex;
-        align-content: center;
-        width: 450px;
-        padding: 0;
+        display: inline-block;
+        margin-bottom: 5%;
     }
-
-    #references img:hover {
-        animation: none;
-        width: 30vw;
+    #references h2 {
+        width: 60%;
     }
-
-    #references img {
-        animation: none;
-        width: 30vw;
+    #experiences .titres {
+        align-items: center;
     }
-
-    #JL {
-        order: 1;
+    .infoPoste {
+        font-size: 2.5vw ;
     }
-
-    #ww {}
-
-    #formation {
-        padding: 0;
+    .formation span , .experience span {
+      display: none;
     }
-
-    #formation a {
-        margin: 0;
+    .formation p {
+        font-size: 2.5vw;
+    }
+    .formation div  p {
+        margin: 2%;
     }
 }

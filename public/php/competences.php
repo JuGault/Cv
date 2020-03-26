@@ -19,7 +19,7 @@
 
 <section id="competences">
     <div class="titres">
-        <h2><span></span>Compétences<span></span></h2>
+        <span></span><h2>Compétences</h2><span></span>
     </div>
     <div class="skills">
         <div class="hard-skills">

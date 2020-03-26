@@ -1,6 +1,9 @@
 <section id="experiences">
         <div id="references">
-            <h2><span></span>Expériences Professionnelles<span></span></h2>
+            <div class="titres">
+                <span></span><h2>Expériences Professionnelles</h2><span></span>
+            </div>
+
             <div class="experience">
                 <?php
 
@@ -20,13 +23,13 @@
 
                 <?php endforeach; ?>
             </div>
-
-
-
         </div>
     <hr>
     <div id="formation">
-        <h2><span></span>Formation<span></span></h2>
+        <div class="titres">
+            <span></span><h2>Formation</h2><span></span>
+        </div>
+
         <div class="formation">
             <?php
             $formation = [

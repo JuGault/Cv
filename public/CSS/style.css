@@ -10,12 +10,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
 
 
-
 :root {
 
     --main-color: rgba(70,252,244,1);
     --dark: rgb(29, 28, 28);
-    --dark-sec: rgb(54, 51, 51);
+    --dark-sec: rgb(0, 0, 0);
     --light: rgb(255, 255, 234);
     --main-font: 'Oxanium', cursive;
     --title-font: 'Permanent Marker', cursive;
@@ -26,7 +25,7 @@
     --spacing-lg: calc(var(--spacing) * 2);
 
     --breakpoint-tablet: 788px;
-    --breakpoint-mobile: 414px;
+    --breakpoint-tablet--breakpoint-mobile: 414px;
 }
 
 * {
@@ -54,7 +53,6 @@ h2 {
 
 .titres{
 
-    position: relative;
     display: flex;
     justify-content: center;
     font-weight: 900;
@@ -65,9 +63,9 @@ h2 {
     text-align: center;
 
 }
-h2 span {
-    width: 25px;
-    height: 25px;
+.titres span {
+    width: 2.5vw;
+    height: 2.5vw;
     border: 3px solid var(--main-color);
     display: inline-block;
     margin: 0 12px;
@@ -81,23 +79,50 @@ p {
     font-size: 1vw;
 }
 section {
-    padding-top: 64px;
+    padding-top: 75px;
     margin-bottom: var(--spacing-lg);
-
+    min-height: 100vh;
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 788px){
 
-    h2{
-        top: 21px;
-        font-size: 18pt;
-    }
+
     section {
         padding-top: 32px;
+        margin-bottom: var(--spacing-lg);
+        min-height: 50vh;
+    }
+    h3 {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+    h2 {
+        font-size: 5vw;
+        text-align: center;
+
+    }
+    .titres{
+
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        align-items: center;
+    }
+    .titres span {
+        width: 5vw;
+        height: 5vw;
+        border: 3px solid var(--main-color);
+        display: inline-block;
+        margin: 0 12px;
+
     }
 }
 
+@media screen and (max-width: 414px){
 
+}
 
 

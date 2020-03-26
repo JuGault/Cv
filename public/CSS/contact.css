@@ -1,5 +1,5 @@
 #contact {
-    height: 94vh;
+   /* height: 94vh;*/
 }
 .contact {
     display: flex;
@@ -26,8 +26,9 @@
     flex-direction: column;
     height: auto;
     width: 90%;
-    box-shadow: 1px 5px 22px 8px #161616;
+    box-shadow: 1px 5px 22px 8px var(--main-color);
    /* margin: auto;*/
+    background: var(--dark);
 }
 
 .Info-perso {
@@ -69,6 +70,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2%;
 }
 .input-group input {
     width: 80%;
@@ -88,7 +90,7 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
-    height: 60%;
+    height: 70%;
 }
 .area-group textarea {
     height: 60%;
@@ -121,12 +123,12 @@
 }
 .Check-group {
     display: flex;
-    margin: 5%;
-    justify-content: space-evenly;
+    margin: 1%;
+    flex-direction: column;
 }
 .single-check {
     display: flex;
-    width: 50%;
+    margin: 1%;
 }
 .single-check label {
     margin-left: 3%;
@@ -144,4 +146,46 @@ input[type="checkbox"]:checked {
     background: var(--main-color);
     margin: 0px;
 
+}
+
+@media screen and (max-width: 788px) {
+    #formulaire_mail {
+        margin: 10% auto;
+    }
+    .input-group {
+        height: 45%;
+    }
+    .contact-info {
+        margin: 10% 0 auto;
+    }
+    .general-info {
+        margin: 5% auto;
+    }
+    .general-info p {
+        font-size: 2vw;
+    }
+    .general-info img {
+        display: none;
+    }
+    .Info-perso {
+        display: block;
+    }
+    .area-group {
+        margin: 5% auto;
+    }
+    .area-group .btn {
+        width: 40%;
+        height: 10%;
+        align-self: flex-end;
+        margin: 2%;
+        background-color: var(--main-color);
+        border: none;
+        color: var(--light);
+        text-decoration: none;
+        /*font-size: 20px;*/
+        border-radius: 28px;
+    }
+    .single-check {
+        margin: 3% 0;
+    }
 }

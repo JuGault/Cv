@@ -10,16 +10,13 @@
     </head>
 
     <body>
-        <?php
-        include 'php/navbar.php';
-        ?>
+
 
         <?php
             include 'php/header.php';
         ?>
-
         <?php
-            include 'php/navbar2.php';
+        include 'php/navbar.php';
         ?>
 
         <main>

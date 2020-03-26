@@ -16,7 +16,7 @@
     $forwhichPosition = ['Apprentice', 'Web develloper / Mobile develloper'];
     ?>
     <div class="titres">
-        <h2><span></span>Contact me<span></span></h2>
+        <span></span><h2>Contact me</h2><span></span>
     </div>
     <div class="contact">
         <div class="contact-info">
