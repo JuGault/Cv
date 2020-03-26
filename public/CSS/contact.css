@@ -7,6 +7,7 @@
     margin-top: 2%;
     height: 100%;
 }
+
 /* GAUCHE */
 
 
@@ -51,17 +52,14 @@
 
 /* DROITE */
 #formulaire_mail {
-    display: flex;
-    flex-direction: column;
     width: 50%;
-
 }
-.formulaire_mail {
+#formulaire_mail fieldset {
     border: 0;
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: auto;
+    margin-top: 2%;
     height: 100%;
 }
 .input-group {
@@ -74,15 +72,20 @@
 }
 .input-group input {
     width: 80%;
+  /*  height: auto;*/
     padding: 5px 20px;
     font-size: 16px;
     color: var(--light);
     text-transform: capitalize;
-   /* outline: 1px solid transparent;*/
     border: 1px solid var(--main-color);
     background: #201f1f;
-    font-size: 16px;
     font-family: var(--main-font);
+}
+.errors {
+    color: red;
+    width: 80%;
+    padding: 5px 20px;
+
 }
 
 .area-group {
@@ -90,7 +93,7 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
-    height: 70%;
+    height: 60%;
 }
 .area-group textarea {
     height: 60%;
@@ -150,13 +153,21 @@ input[type="checkbox"]:checked {
 
 @media screen and (max-width: 788px) {
     #formulaire_mail {
-        margin: 10% auto;
+        margin: 0;
+    }
+    #formulaire_mail fieldset {
+        border: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2%;
+        height: 100%;
     }
     .input-group {
         height: 45%;
     }
     .contact-info {
-        margin: 10% 0 auto;
+        margin: 0;
     }
     .general-info {
         margin: 5% auto;
@@ -172,6 +183,7 @@ input[type="checkbox"]:checked {
     }
     .area-group {
         margin: 5% auto;
+
     }
     .area-group .btn {
         width: 40%;

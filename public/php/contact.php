@@ -14,6 +14,40 @@
         'Phone' => ['Enter your phone number'],
     ];
     $forwhichPosition = ['Apprentice', 'Web develloper / Mobile develloper'];
+
+    $data = [];
+    $errors = [];
+
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        foreach ($_POST as $key => $value) {
+            $data[$key] = trim($value);
+        }
+
+        if (empty($data['Name'])){
+            $errors['Name'] = 'The name is empty';
+        }
+        if (255 < strlen($data['Name'])) {
+            $errors['Name'] = 'This name is too long';
+        }
+        if ( 255 < strlen($data['Company'])) {
+            $errors['Company'] = 'This name of company is too long';
+        }
+        if (empty($data['email'])){
+            $errors['email'] = 'The Mail Address is empty';
+        }
+        if (!empty($data['email']) && !filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
+            $errors['email'] = 'This Mail format is invalid';
+        }
+        if (empty($data['phone'])){
+            $errors['phone'] = 'The Phone number is empty';
+        }
+
+    }
+
+
+
+
+
     ?>
     <div class="titres">
         <span></span><h2>Contact me</h2><span></span>
@@ -32,14 +66,17 @@
             </div>
         </div>
 
-        <form action="test.php" method="POST" id="formulaire_mail">
-            <fieldset class="formulaire_mail">
+        <form action="" method="post" id="formulaire_mail">
+            <fieldset>
                 <div class="input-group">
-                    <input type="text" placeholder="Enter your Name" id="name" name="Enter your Name">
-                    <input type="text" placeholder="Company " id="Company" name="Companyname">
-                    <input type="email" placeholder="Enter Your Email address " id="email" name="email">
-                    <input type="text" placeholder="Enter your phone Number" id="phonenumber" name="phonenumber">
-
+                    <input value="<?= $data['Name'] ?? '' ?>" type="text" placeholder="Enter your Name" id="name" name="Name">
+                        <div class="errors"><?= $errors['Name'] ?? '' ?></div>
+                    <input value="<?= $data['Company'] ?? '' ?>" type="text" placeholder="Company " id="Company" name="Company">
+                        <div class="errors"><?= $errors['Company'] ?? '' ?></div>
+                    <input value="<?= $data['email'] ?? '' ?>" type="email" placeholder="Enter Your Email address " id="email" name="email">
+                        <div class="errors"><?= $errors['email'] ?? '' ?></div>
+                    <input value="<?= $data['phone'] ?? '' ?>" type="text" placeholder="Enter your phone Number" id="phonenumber" name="phone">
+                    <div class="errors"><?= $errors['phone'] ?? '' ?></div>
                 </div>
 
 
