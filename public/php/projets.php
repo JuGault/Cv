@@ -1,8 +1,8 @@
 <?php
- $allProjects = [
-     'projects'=> ['nameProject'=> 'Cv Batman', 'pictureProject'=>'../Images/Screenshot_2020-03-25 CV de Batman.png', 'linksProject' =>'https://github.com/JuGault/cvBatman',],
-     'projects2'=> ['nameProject'=> 'Cv julien', 'pictureProject'=>'../Images/Screenshot_2020-03-25 CV Julien Gault.png', 'linksProject' =>'https://github.com/JuGault/Cv',],
- ];
+
+$query = "SELECT * FROM project";
+$statement = $pdo->query($query);
+$allProjects = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <section id="projets">
@@ -12,9 +12,9 @@
     <div class="all-projects">
         <?php foreach ($allProjects as $project) : ?>
             <article class="projects" >
-                <a href="<?php echo $project['linksProject'] ?>">
-                <img src="<?php echo $project['pictureProject'] ?>" alt="picture <?php echo $project['nameProject'] ?>">
-                <?php echo $project['nameProject'] ?></a>
+                <a href="<?php echo htmlentities($project['link']) ?>" target="_blank">
+                <img src="<?php echo htmlentities($project['picture']) ?>" alt="picture <?php echo htmlentities($project['nameproject']) ?>" >
+                <?php echo htmlentities($project['nameproject']) ?></a>
             </article>
         <?php endforeach; ?>
     </div>

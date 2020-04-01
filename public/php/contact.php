@@ -1,19 +1,15 @@
 <section id="contact">
     <?php
-        $infoPerso = [
-            'Name' => ['info' =>'Gault Julien', 'icon' => '../Images/name.svg'],
-            'Date of birth' => ['info' =>'09.02.1991', 'icon' => '../Images/birthday.svg'],
-            'Address' => ['info' =>'17 rue marie claude vaillant couturier 45120 Chalette sur Loing','icon' => '../Images/adress.svg'],
-            'Phone' => ['info' =>'06.33.65.87.60','icon' => '../Images/contact.svg'],
-            'Mail' => ['info' =>'jugault45@gmail.com', 'icon' => '../Images/mail.svg'],
-        ];
-    $infoCompany = [
-        'Name' => ['Enter your name'],
-        'Company' => ['Enter name of your company'],
-        'Mail Address' => ['Enter your Email address'],
-        'Phone' => ['Enter your phone number'],
-    ];
-    $forwhichPosition = ['Apprentice', 'Web develloper / Mobile develloper'];
+
+
+    $query = "SELECT * FROM infoPerso";
+    $statement = $pdo->query($query);
+    $infoPerso = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    $query = "SELECT * FROM forWitchPosition";
+    $statement = $pdo->query($query);
+    $forwhitchPosition = $statement->fetchAll(PDO::FETCH_ASSOC);
+
 
     $data = [];
     $errors = [];
@@ -61,10 +57,10 @@
             <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.704406976699829%2C48.011745451766316%2C2.717850208282471%2C48.01817596352136&amp;layer=mapnik" style="border: 1px solid black"></iframe>
 
             <div class="general-info">
-                <?php foreach ($infoPerso as $personalInfo => $info ) : ?>
+                <?php foreach ($infoPerso as $info ) : ?>
                 <div class="Info-perso">
-                <img src="<?php echo $info['icon']  ?>" alt="icone-<?php echo $personalInfo ?>">
-                <p style="font-weight: 900; text-decoration: underline; "><?php echo $personalInfo ?> :</p>
+                <img src="<?php echo $info['icon']  ?>" alt="icone-<?php echo $info['nameinfo'] ?>">
+                <p style="font-weight: 900; text-decoration: underline; "><?php echo $info['nameinfo'] ?> :</p>
                 <p><?php echo $info['info']  ?></p>
                 </div><?php endforeach; ?>
             </div>
@@ -90,10 +86,10 @@
 
                 <div class="area-group">
                     <div class="Check-group">
-                        <?php foreach ($forwhichPosition as $position) : ?>
+                        <?php foreach ($forwhitchPosition as $position) : ?>
                             <div class="single-check">
-                                <input type="checkbox" id="<?php echo $position?>">
-                                <label for="<?php echo $position?>"><?php echo $position?></label>
+                                <input type="checkbox" id="<?php echo $position['name']?>">
+                                <label for="<?php echo $position['name'] ?>"><?php echo $position['name'] ?></label>
 
                             </div>
                         <?php endforeach; ?>

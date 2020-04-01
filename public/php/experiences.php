@@ -7,18 +7,15 @@
             <div class="experience">
                 <?php
 
-                $professionalExperience = [
-                    'Moniteur Educateur' => ['EPMS Chancepoix (77)', '(2016/2018 )',],
-                    'Educateur'=> ['Action Enfance Amilly (45)', '(2012/2016 )',],
-                    'Animateur sociaux culturels' => ['Service enfance Mairie de Chalette sur Loing (45)', '(2011/2012 )',],
-                ];
+                $query = "SELECT * FROM experience";
+                $statement = $pdo->query($query);
+                $experiences = $statement->fetchAll(PDO::FETCH_ASSOC);
 
                 ?>
-                <?php foreach ($professionalExperience as $nomPoste => $poste) : ?>
+                <?php foreach ($experiences as $poste) : ?>
                 <div>
-                    <p><span></span><?php echo $nomPoste . ' : ' ?></p>
-                    <?php $infoPoste = implode( " en ", $poste) ?>
-                    <p class="infoPoste"><?php echo $infoPoste ; ?></p>
+                    <p><span></span><?php echo $poste['name'] . ' : ' ?></p>
+                    <p class="infoPoste"><?php echo $poste['lieu'] .' en (' . $poste['debut'] ?><?= $fin = (empty($poste['fin'])) ? ').' : '/' . $poste['fin'] . ').'; ?></p>
                 </div>
 
                 <?php endforeach; ?>
@@ -32,16 +29,14 @@
 
         <div class="formation">
             <?php
-            $formation = [
-                'Formation Dévellopeur Web (php/symfony)' => ['lieux' => 'Wild Code School Orléans' , 'dates' => ' en (2020)'],
-                'Formation en interne Affectivité / Citoyenneté / Sexualité' => ['lieux' => 'EPMS Chancepoix 77', 'dates' => ' en (2017)'],
-                'Formation Moniteur-éducateur' => [ 'lieux' => 'ERTS Olivet', 'dates' => ' de (2013/2015)'],
-                'Lycée général section Scientifique (Bac S)' => [ 'lieux' => 'Lycée Augustin Thierry à Blois 41', 'dates' => ' en (2009)'],
-            ];
+            $query = "SELECT * FROM formations";
+            $statement = $pdo->query($query);
+            $formations = $statement->fetchAll(PDO::FETCH_ASSOC);
+
             ?>
-            <?php foreach ($formation as $whatFormation => $keys) : ?>
+            <?php foreach ($formations as $formation) : ?>
                 <div>
-                    <span></span><p><?php echo $whatFormation . ' à ' ?><?php foreach ($keys as $cara => $valor) : echo $valor ?><?php endforeach; ?></p>
+                    <span></span><p><?php echo $formation['name'] . ' à ' . $formation['lieu'] . ' en ' . $formation['debut'] . $fin = (empty($formation['fin'])) ? ').' : '/' . $formation['fin'] . ').'; ?></p>
                 </div>
 
             <?php endforeach; ?>

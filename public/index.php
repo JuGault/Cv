@@ -1,3 +1,7 @@
+<?php
+require '../src/connec.php';
+require '../src/databaseConnection.php';
+?>
 <!DOCTYPE html>
 <html lang="fr">
 

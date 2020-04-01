@@ -988,3 +988,332 @@
 [26-Mar-2020 21:06:10 UTC] PHP Stack trace:
 [26-Mar-2020 21:06:10 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
 [26-Mar-2020 21:06:10 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:37
+[31-Mar-2020 10:01:35 UTC] PHP Warning:  require(src/connec.php): failed to open stream: No such file or directory in /home/wilder/quetes/shell/Cv/public/php/projets.php on line 2
+[31-Mar-2020 10:01:35 UTC] PHP Stack trace:
+[31-Mar-2020 10:01:35 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 10:01:35 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 10:01:35 UTC] PHP Fatal error:  require(): Failed opening required 'src/connec.php' (include_path='.:/usr/share/php') in /home/wilder/quetes/shell/Cv/public/php/projets.php on line 2
+[31-Mar-2020 10:01:35 UTC] PHP Stack trace:
+[31-Mar-2020 10:01:35 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 10:01:35 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 11:58:39 UTC] PHP Notice:  Constant DSN already defined in /home/wilder/quetes/shell/Cv/src/connec.php on line 3
+[31-Mar-2020 11:58:39 UTC] PHP Stack trace:
+[31-Mar-2020 11:58:39 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 11:58:39 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 11:58:39 UTC] PHP   3. require() /home/wilder/quetes/shell/Cv/public/php/projets.php:2
+[31-Mar-2020 11:58:39 UTC] PHP   4. define() /home/wilder/quetes/shell/Cv/src/connec.php:3
+[31-Mar-2020 11:58:39 UTC] PHP Notice:  Constant USER already defined in /home/wilder/quetes/shell/Cv/src/connec.php on line 4
+[31-Mar-2020 11:58:39 UTC] PHP Stack trace:
+[31-Mar-2020 11:58:39 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 11:58:39 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 11:58:39 UTC] PHP   3. require() /home/wilder/quetes/shell/Cv/public/php/projets.php:2
+[31-Mar-2020 11:58:39 UTC] PHP   4. define() /home/wilder/quetes/shell/Cv/src/connec.php:4
+[31-Mar-2020 11:58:39 UTC] PHP Notice:  Constant PASS already defined in /home/wilder/quetes/shell/Cv/src/connec.php on line 5
+[31-Mar-2020 11:58:39 UTC] PHP Stack trace:
+[31-Mar-2020 11:58:39 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 11:58:39 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 11:58:39 UTC] PHP   3. require() /home/wilder/quetes/shell/Cv/public/php/projets.php:2
+[31-Mar-2020 11:58:39 UTC] PHP   4. define() /home/wilder/quetes/shell/Cv/src/connec.php:5
+[31-Mar-2020 12:00:16 UTC] PHP Notice:  Constant DSN already defined in /home/wilder/quetes/shell/Cv/src/connec.php on line 3
+[31-Mar-2020 12:00:16 UTC] PHP Stack trace:
+[31-Mar-2020 12:00:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 12:00:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 12:00:16 UTC] PHP   3. require() /home/wilder/quetes/shell/Cv/public/php/projets.php:2
+[31-Mar-2020 12:00:16 UTC] PHP   4. define() /home/wilder/quetes/shell/Cv/src/connec.php:3
+[31-Mar-2020 12:00:16 UTC] PHP Notice:  Constant USER already defined in /home/wilder/quetes/shell/Cv/src/connec.php on line 4
+[31-Mar-2020 12:00:16 UTC] PHP Stack trace:
+[31-Mar-2020 12:00:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 12:00:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 12:00:16 UTC] PHP   3. require() /home/wilder/quetes/shell/Cv/public/php/projets.php:2
+[31-Mar-2020 12:00:16 UTC] PHP   4. define() /home/wilder/quetes/shell/Cv/src/connec.php:4
+[31-Mar-2020 12:00:16 UTC] PHP Notice:  Constant PASS already defined in /home/wilder/quetes/shell/Cv/src/connec.php on line 5
+[31-Mar-2020 12:00:16 UTC] PHP Stack trace:
+[31-Mar-2020 12:00:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 12:00:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 12:00:16 UTC] PHP   3. require() /home/wilder/quetes/shell/Cv/public/php/projets.php:2
+[31-Mar-2020 12:00:16 UTC] PHP   4. define() /home/wilder/quetes/shell/Cv/src/connec.php:5
+[31-Mar-2020 12:00:44 UTC] PHP Notice:  Constant DSN already defined in /home/wilder/quetes/shell/Cv/src/connec.php on line 3
+[31-Mar-2020 12:00:44 UTC] PHP Stack trace:
+[31-Mar-2020 12:00:44 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 12:00:44 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 12:00:44 UTC] PHP   3. require() /home/wilder/quetes/shell/Cv/public/php/projets.php:2
+[31-Mar-2020 12:00:44 UTC] PHP   4. define() /home/wilder/quetes/shell/Cv/src/connec.php:3
+[31-Mar-2020 12:00:44 UTC] PHP Notice:  Constant USER already defined in /home/wilder/quetes/shell/Cv/src/connec.php on line 4
+[31-Mar-2020 12:00:44 UTC] PHP Stack trace:
+[31-Mar-2020 12:00:44 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 12:00:44 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 12:00:44 UTC] PHP   3. require() /home/wilder/quetes/shell/Cv/public/php/projets.php:2
+[31-Mar-2020 12:00:44 UTC] PHP   4. define() /home/wilder/quetes/shell/Cv/src/connec.php:4
+[31-Mar-2020 12:00:44 UTC] PHP Notice:  Constant PASS already defined in /home/wilder/quetes/shell/Cv/src/connec.php on line 5
+[31-Mar-2020 12:00:44 UTC] PHP Stack trace:
+[31-Mar-2020 12:00:44 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 12:00:44 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 12:00:44 UTC] PHP   3. require() /home/wilder/quetes/shell/Cv/public/php/projets.php:2
+[31-Mar-2020 12:00:44 UTC] PHP   4. define() /home/wilder/quetes/shell/Cv/src/connec.php:5
+[31-Mar-2020 13:46:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/wilder/quetes/shell/Cv/public/php/experiences.php:34
+Stack trace:
+#0 /home/wilder/quetes/shell/Cv/public/index.php(37): include()
+#1 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/php/experiences.php on line 34
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 29
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 29
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 29
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 29
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 29
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:45:08 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:45:08 UTC] PHP Stack trace:
+[31-Mar-2020 15:45:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:45:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:54:57 UTC] PHP Stack trace:
+[31-Mar-2020 15:54:57 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:54:57 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Notice:  Undefined index: value in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 15:58:17 UTC] PHP Warning:  A non-numeric value encountered in /home/wilder/quetes/shell/Cv/public/php/competences.php on line 30
+[31-Mar-2020 15:58:17 UTC] PHP Stack trace:
+[31-Mar-2020 15:58:17 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[31-Mar-2020 15:58:17 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:29
+[31-Mar-2020 22:35:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/wilder/quetes/shell/Cv/public/php/experiences.php:12
+Stack trace:
+#0 /home/wilder/quetes/shell/Cv/public/index.php(37): include()
+#1 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/php/experiences.php on line 12
+[31-Mar-2020 22:36:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/wilder/quetes/shell/Cv/public/php/experiences.php:12
+Stack trace:
+#0 /home/wilder/quetes/shell/Cv/public/index.php(37): include()
+#1 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/php/experiences.php on line 12
+[31-Mar-2020 22:36:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/wilder/quetes/shell/Cv/public/php/experiences.php:12
+Stack trace:
+#0 /home/wilder/quetes/shell/Cv/public/index.php(37): include()
+#1 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/php/experiences.php on line 12
+[31-Mar-2020 22:44:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/wilder/quetes/shell/Cv/public/php/experiences.php:12
+Stack trace:
+#0 /home/wilder/quetes/shell/Cv/public/index.php(37): include()
+#1 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/php/experiences.php on line 12
+[31-Mar-2020 22:46:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/wilder/quetes/shell/Cv/public/php/experiences.php:12
+Stack trace:
+#0 /home/wilder/quetes/shell/Cv/public/index.php(37): include()
+#1 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/php/experiences.php on line 12
+[31-Mar-2020 22:46:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/wilder/quetes/shell/Cv/public/php/experiences.php:12
+Stack trace:
+#0 /home/wilder/quetes/shell/Cv/public/index.php(37): include()
+#1 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/php/experiences.php on line 12
