@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <label for="namecompetence">Nom de la compétence</label>
     <input type="text" id="namecompetence" name="namecompetence" value="<?= $competence['namecompetence'] ?>" required>
 
-    <label for="valuecompetence"></label>
+    <label for="valuecompetence">Niveau de maitrise de la compétence (%)</label>
     <input type="number" id="valuecompetence" name="valuecompetence" value="<?= $competence['valuecompetence'] ?>" required>
 
     <button>edit</button>

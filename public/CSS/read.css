@@ -1,22 +1,23 @@
-.read-skills {
+.read-skills, .read-projet, .read-experience {
     display: flex;
     align-items: center;
     min-height: 100vh;
     min-width: 100vw;
     flex-direction: column;
     font-size: 30px;
+    margin-top: 2%;
 }
-.read-skills p {
+.read-skills p, .experience-item p, .formation-item p {
     font-size: 30px;
 }
-.read-skills a {
+.read-skills a , .read-projet a, .experience a, .formation a {
     margin-top: 5%;
     margin-bottom: 5%;
     color: var(--light);
 
 
 }
-.read-hard {
+.read-hard, .all-projets {
     display: flex;
     align-items: center;
     width: 90vw;
@@ -72,4 +73,56 @@
     box-shadow: 1px 5px 22px 8px var(--main-color);
     padding: 2%;
     background: var(--dark);
+}
+.projet {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--main-font);
+    color: var(--light);
+    text-transform: capitalize;
+    /* outline: 1px solid transparent;*/
+    border: 1px solid var(--main-color);
+    background: #201f1f;
+    padding: 2%;
+    margin: 5%;
+}
+.projet img {
+    width: 100%;
+}
+.all-projets {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projet article {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.read-experience .experience, .read-experience .formation {
+    width: 80vw;
+    align-items: center;
+    margin: 5% 0;
+}
+.read-experience .experience .read-btn , .read-experience .formation .read-btn{
+    flex-direction: row;
+}
+.experience-item {
+    width: 80%;
+    margin: 3%;
+}
+.formation-item {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 3%;
+
 }
