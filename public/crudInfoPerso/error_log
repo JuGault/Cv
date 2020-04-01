@@ -1,0 +1,43 @@
+[01-Apr-2020 14:28:24 UTC] PHP Notice:  Undefined variable: pdo in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/readInfoPerso.php on line 4
+[01-Apr-2020 14:28:24 UTC] PHP Stack trace:
+[01-Apr-2020 14:28:24 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/readInfoPerso.php:0
+[01-Apr-2020 14:28:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/readInfoPerso.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/readInfoPerso.php on line 4
+[01-Apr-2020 15:05:11 UTC] PHP Notice:  Undefined index: nameinfo in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 42
+[01-Apr-2020 15:05:11 UTC] PHP Stack trace:
+[01-Apr-2020 15:05:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:05:11 UTC] PHP Notice:  Undefined index: info in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 45
+[01-Apr-2020 15:05:11 UTC] PHP Stack trace:
+[01-Apr-2020 15:05:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:05:11 UTC] PHP Notice:  Undefined index: icon in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 48
+[01-Apr-2020 15:05:11 UTC] PHP Stack trace:
+[01-Apr-2020 15:05:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:08:29 UTC] PHP Notice:  Undefined index: nameinfo in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 46
+[01-Apr-2020 15:08:29 UTC] PHP Stack trace:
+[01-Apr-2020 15:08:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:08:29 UTC] PHP Notice:  Undefined index: info in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 49
+[01-Apr-2020 15:08:29 UTC] PHP Stack trace:
+[01-Apr-2020 15:08:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:08:29 UTC] PHP Notice:  Undefined index: icon in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 52
+[01-Apr-2020 15:08:29 UTC] PHP Stack trace:
+[01-Apr-2020 15:08:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:13:08 UTC] PHP Notice:  Undefined index: nameinfo in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 46
+[01-Apr-2020 15:13:08 UTC] PHP Stack trace:
+[01-Apr-2020 15:13:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:13:08 UTC] PHP Notice:  Undefined index: info in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 49
+[01-Apr-2020 15:13:08 UTC] PHP Stack trace:
+[01-Apr-2020 15:13:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:13:08 UTC] PHP Notice:  Undefined index: icon in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 52
+[01-Apr-2020 15:13:08 UTC] PHP Stack trace:
+[01-Apr-2020 15:13:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:15:08 UTC] PHP Notice:  Undefined index: nameinfo in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 46
+[01-Apr-2020 15:15:08 UTC] PHP Stack trace:
+[01-Apr-2020 15:15:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:15:08 UTC] PHP Notice:  Undefined index: info in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 49
+[01-Apr-2020 15:15:08 UTC] PHP Stack trace:
+[01-Apr-2020 15:15:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0
+[01-Apr-2020 15:15:08 UTC] PHP Notice:  Undefined index: icon in /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php on line 52
+[01-Apr-2020 15:15:08 UTC] PHP Stack trace:
+[01-Apr-2020 15:15:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudInfoPerso/updateInfoPerso.php:0

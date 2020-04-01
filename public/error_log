@@ -1317,3 +1317,11 @@ Stack trace:
 #0 /home/wilder/quetes/shell/Cv/public/index.php(37): include()
 #1 {main}
   thrown in /home/wilder/quetes/shell/Cv/public/php/experiences.php on line 12
+[01-Apr-2020 15:46:35 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[01-Apr-2020 15:46:35 UTC] PHP Stack trace:
+[01-Apr-2020 15:46:35 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 15:46:35 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[01-Apr-2020 15:46:35 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[01-Apr-2020 15:46:35 UTC] PHP Stack trace:
+[01-Apr-2020 15:46:35 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 15:46:35 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41

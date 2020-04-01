@@ -1,0 +1,81 @@
+[01-Apr-2020 13:22:06 UTC] PHP Notice:  Undefined variable: pdo in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 12
+[01-Apr-2020 13:22:06 UTC] PHP Stack trace:
+[01-Apr-2020 13:22:06 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:0
+[01-Apr-2020 13:22:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 12
+[01-Apr-2020 13:23:01 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 20
+[01-Apr-2020 13:23:01 UTC] PHP Stack trace:
+[01-Apr-2020 13:23:01 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:0
+[01-Apr-2020 13:23:01 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 20
+[01-Apr-2020 13:23:01 UTC] PHP Stack trace:
+[01-Apr-2020 13:23:01 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:0
+[01-Apr-2020 13:23:01 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 20
+[01-Apr-2020 13:23:01 UTC] PHP Stack trace:
+[01-Apr-2020 13:23:01 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:0
+[01-Apr-2020 13:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 44
+[01-Apr-2020 13:23:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 44
+[01-Apr-2020 13:23:58 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 49
+[01-Apr-2020 13:23:58 UTC] PHP Stack trace:
+[01-Apr-2020 13:23:58 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:0
+[01-Apr-2020 13:23:58 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 49
+[01-Apr-2020 13:23:58 UTC] PHP Stack trace:
+[01-Apr-2020 13:23:58 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:0
+[01-Apr-2020 13:23:58 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 49
+[01-Apr-2020 13:23:58 UTC] PHP Stack trace:
+[01-Apr-2020 13:23:58 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:0
+[01-Apr-2020 13:23:58 UTC] PHP Notice:  Undefined index: name in /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php on line 49
+[01-Apr-2020 13:23:58 UTC] PHP Stack trace:
+[01-Apr-2020 13:23:58 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/readexperience.php:0
+[01-Apr-2020 13:58:13 UTC] PHP Notice:  Undefined index: nameexperience in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php on line 48
+[01-Apr-2020 13:58:13 UTC] PHP Stack trace:
+[01-Apr-2020 13:58:13 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php:0
+[01-Apr-2020 13:58:13 UTC] PHP Notice:  Undefined index: lieu in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php on line 51
+[01-Apr-2020 13:58:13 UTC] PHP Stack trace:
+[01-Apr-2020 13:58:13 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php:0
+[01-Apr-2020 13:58:13 UTC] PHP Notice:  Undefined index: debut in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php on line 54
+[01-Apr-2020 13:58:13 UTC] PHP Stack trace:
+[01-Apr-2020 13:58:13 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php:0
+[01-Apr-2020 13:58:25 UTC] PHP Notice:  Undefined index: nameexperience in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php on line 48
+[01-Apr-2020 13:58:25 UTC] PHP Stack trace:
+[01-Apr-2020 13:58:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php:0
+[01-Apr-2020 13:58:25 UTC] PHP Notice:  Undefined index: lieu in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php on line 51
+[01-Apr-2020 13:58:25 UTC] PHP Stack trace:
+[01-Apr-2020 13:58:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php:0
+[01-Apr-2020 13:58:25 UTC] PHP Notice:  Undefined index: debut in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php on line 54
+[01-Apr-2020 13:58:25 UTC] PHP Stack trace:
+[01-Apr-2020 13:58:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php:0
+[01-Apr-2020 13:58:53 UTC] PHP Notice:  Undefined index: nameexperience in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php on line 48
+[01-Apr-2020 13:58:53 UTC] PHP Stack trace:
+[01-Apr-2020 13:58:53 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php:0
+[01-Apr-2020 13:58:53 UTC] PHP Notice:  Undefined index: lieu in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php on line 51
+[01-Apr-2020 13:58:53 UTC] PHP Stack trace:
+[01-Apr-2020 13:58:53 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php:0
+[01-Apr-2020 13:58:53 UTC] PHP Notice:  Undefined index: debut in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php on line 54
+[01-Apr-2020 13:58:53 UTC] PHP Stack trace:
+[01-Apr-2020 13:58:53 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateexperience.php:0
+[01-Apr-2020 14:04:25 UTC] PHP Notice:  Undefined variable: formation in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php on line 48
+[01-Apr-2020 14:04:25 UTC] PHP Stack trace:
+[01-Apr-2020 14:04:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php:0
+[01-Apr-2020 14:04:25 UTC] PHP Notice:  Undefined variable: formation in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php on line 51
+[01-Apr-2020 14:04:25 UTC] PHP Stack trace:
+[01-Apr-2020 14:04:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php:0
+[01-Apr-2020 14:04:25 UTC] PHP Notice:  Undefined variable: formation in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php on line 54
+[01-Apr-2020 14:04:25 UTC] PHP Stack trace:
+[01-Apr-2020 14:04:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php:0
+[01-Apr-2020 14:04:39 UTC] PHP Notice:  Undefined variable: formation in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php on line 48
+[01-Apr-2020 14:04:39 UTC] PHP Stack trace:
+[01-Apr-2020 14:04:39 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php:0
+[01-Apr-2020 14:04:39 UTC] PHP Notice:  Undefined variable: formation in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php on line 51
+[01-Apr-2020 14:04:39 UTC] PHP Stack trace:
+[01-Apr-2020 14:04:39 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php:0
+[01-Apr-2020 14:04:39 UTC] PHP Notice:  Undefined variable: formation in /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php on line 54
+[01-Apr-2020 14:04:39 UTC] PHP Stack trace:
+[01-Apr-2020 14:04:39 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/crudExperiences/updateformation.php:0
