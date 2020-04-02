@@ -12,25 +12,54 @@ $statement->bindValue(':id', $id, PDO::PARAM_INT);
 $statement->execute();
 $experience = $statement->fetch(PDO::FETCH_ASSOC);
 
-
+$errors = [];
 $data = [];
 if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     foreach ($_POST as $key => $value) {
         $data[$key] = trim($value);
     }
 
-    $query = "UPDATE experience SET nameexperience= :nameexperience , lieu= :lieu , debut= :debut , fin= :fin WHERE id= :id";
-    $statement = $pdo->prepare($query);
-    $statement->bindValue(':nameexperience', $data['nameexperience'], PDO::PARAM_STR);
-    $statement->bindValue(':lieu', $data['lieu'], PDO::PARAM_STR);
-    $statement->bindValue(':debut', $data['debut'], PDO::PARAM_INT);
-    $statement->bindValue(':fin', $data['fin'], PDO::PARAM_INT);
-    $statement->bindValue(':id', $id, PDO::PARAM_INT);
+    if (empty($data['nameexperience'])) {
+        $errors['nameexperience'] = 'The nameexperience is empty';
+    }
+    if (100 > strlen($data['nameexperience'])) {
+        $errors['nameexperience'] = 'This nameexperience is too long';
+    }
+    if (empty($data['lieu'])) {
+        $errors['lieu'] = 'The lieu is empty';
+    }
+    if (100 > strlen($data['lieu'])) {
+        $errors['lieu'] = 'This lieu is too long';
+    }
+    if (empty($data['debut'])) {
+        $errors['debut'] = 'The debut is empty';
+    }
+    if (4 == strlen($data['debut'])) {
+        $errors['debut'] = 'This debut is wrong, the format must be AAAA .';
+    }
 
-    $statement->execute(); // Execute a prepared request
+    if (4 == strlen($data['fin'])) {
+        $errors['fin'] = 'This fin is wrong, the format must be AAAA';
+    }
 
-    $experience = $statement->fetchAll(); // Get data
-    header('location: ../index.php');
+    if (empty($errors)) {
+        $congratulation = 'Merci votre ' . htmlentities($data['nameexperience']) . ' a bien été mis à jour!.';
+
+
+        $query = "UPDATE experience SET nameexperience= :nameexperience , lieu= :lieu , debut= :debut , fin= :fin WHERE id= :id";
+        $statement = $pdo->prepare($query);
+        $statement->bindValue(':nameexperience', $data['nameexperience'], PDO::PARAM_STR);
+        $statement->bindValue(':lieu', $data['lieu'], PDO::PARAM_STR);
+        $statement->bindValue(':debut', $data['debut'], PDO::PARAM_INT);
+        $statement->bindValue(':fin', $data['fin'], PDO::PARAM_INT);
+        $statement->bindValue(':id', $id, PDO::PARAM_INT);
+
+        $statement->execute(); // Execute a prepared request
+
+        $experience = $statement->fetchAll(); // Get data
+        sleep(2);
+        header('location: ../index.php');
+    }
 }
 ?>
 <!doctype html>
@@ -45,19 +74,21 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
 </head>
 <body>
     <div class="form-update">
+        <?php if (!empty($congratulation)) : ?>
+            <div class="congratulation"><?= $congratulation ?></div><?php endif; ?>
         <form action="" method="post">
             <label for="nameexperience">Nom du poste</label>
-            <input type="text" id="nameexperience" name="nameexperience" value="<?= $experience['nameexperience'] ?>" required>
-
+            <input type="text" id="nameexperience" name="nameexperience" value="<?= htmlentities($experience['nameexperience']) ?>" required>
+            <div class="errors"><?= $errors['nameexperience'] ?? '' ?></div>
             <label for="lieu">Nom et/ou Adresse de l'employeur</label>
-            <input type="text" id="lieu" name="lieu" value="<?= $experience['lieu'] ?>" required>
-
+            <input type="text" id="lieu" name="lieu" value="<?= htmlentities($experience['lieu']) ?>" required>
+            <div class="errors"><?= $errors['lieu'] ?? '' ?></div>
             <label for="debut">Année du début du poste</label>
-            <input type="number" id="debut" name="debut" value="<?= $experience['debut'] ?>" required>
-
+            <input type="number" id="debut" name="debut" value="<?= htmlentities($experience['debut']) ?>" required>
+            <div class="errors"><?= $errors['debut'] ?? '' ?></div>
             <label for="fin">Année de fin du poste</label>
-            <input type="number" id="fin" name="fin" value="<?= $fin = (empty($experience['fin'])) ? '' :  $experience['fin']?>">
-
+            <input type="number" id="fin" name="fin" value="<?= htmlentities($fin = (empty($experience['fin'])) ? '' :  $experience['fin'])?>">
+            <div class="errors"><?= $errors['fin'] ?? '' ?></div>
             <input class="submit" type="submit" value="edit">
             <a href="readexperience.php">Retour</a>
         </form>

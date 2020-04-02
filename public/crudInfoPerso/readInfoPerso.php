@@ -22,9 +22,9 @@ $infoPerso = $statement->fetchAll(PDO::FETCH_ASSOC);
         <div class="general-info">
             <?php foreach ($infoPerso as $info) : ?>
                 <div class="Info-perso">
-                    <img src="<?php echo $info['icon'] ?>" alt="icone-<?php echo $info['nameinfo'] ?>">
-                    <p style="font-weight: 900; text-decoration: underline; "><?php echo $info['nameinfo'] ?> :</p>
-                    <p><?php echo $info['info'] ?></p>
+                    <img src="<?php echo htmlentities($info['icon']) ?>" alt="icone-<?php echo htmlentities($info['nameinfo']) ?>">
+                    <p style="font-weight: 900; text-decoration: underline; "><?php echo htmlentities($info['nameinfo']) ?> :</p>
+                    <p><?php echo htmlentities($info['info']) ?></p>
                     <div class="read-btn">
                         <form action="deleteInfoPerso.php" method="post">
                             <input type="hidden" name="id" value="<?= $info['id'] ?>">

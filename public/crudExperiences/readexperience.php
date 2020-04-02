@@ -31,16 +31,16 @@ require '../../src/databaseConnection.php';
                 <?php foreach ($experiences as $poste) : ?>
                 <div class="experience-item">
                     <div>
-                        <p><span></span><?php echo $poste['nameexperience'] . ' : ' ?></p>
-                        <p class="infoPoste"><?php echo $poste['lieu'] .' en (' . $poste['debut'] ?><?= $fin = (empty($poste['fin'])) ? ').' : '/' . $poste['fin'] . ').'; ?></p>
+                        <p><span></span><?php echo htmlentities($poste['nameexperience']) . ' : ' ?></p>
+                        <p class="infoPoste"><?php echo htmlentities($poste['lieu']) .' en (' . htmlentities($poste['debut']) ?><?= htmlentities($fin = (empty($poste['fin'])) ? ').' : '/' . $poste['fin'] . ').'); ?></p>
                     </div>
                     <div class="read-btn">
                         <form action="deleteexperience.php" method="post">
-                            <input type="hidden" name="id" value="<?= $poste['id'] ?>">
+                            <input type="hidden" name="id" value="<?= htmlentities($poste['id']) ?>">
                             <button>Delete</button>
                         </form>
                         <form action="updateexperience.php" method="get">
-                            <input type="hidden" name="id" value="<?= $poste['id'] ?>">
+                            <input type="hidden" name="id" value="<?= htmlentities($poste['id']) ?>">
                             <button>Edit</button>
                         </form>
                     </div>
@@ -67,15 +67,15 @@ require '../../src/databaseConnection.php';
                 <?php foreach ($formations as $formation) : ?>
                 <div class="formation-item">
                     <div>
-                        <span></span><p><?php echo $formation['nameformation'] . ' à ' . $formation['lieu'] . ' en ' . $formation['debut'] . $fin = (empty($formation['fin'])) ? ').' : '/' . $formation['fin'] . ').'; ?></p>
+                        <span></span><p><?php echo htmlentities($formation['nameformation']) . ' à ' . htmlentities($formation['lieu']) . ' en ' . htmlentities($formation['debut']) . htmlentities($fin = (empty($formation['fin'])) ? ').' : '/' . $formation['fin'] . ').'); ?></p>
                     </div>
                     <div class="read-btn">
                         <form action="deleteformation.php" method="post">
-                            <input type="hidden" name="id" value="<?= $formation['id'] ?>">
+                            <input type="hidden" name="id" value="<?= htmlentities($formation['id']) ?>">
                             <button>Delete</button>
                         </form>
                         <form action="updateformation.php" method="get">
-                            <input type="hidden" name="id" value="<?= $formation['id'] ?>">
+                            <input type="hidden" name="id" value="<?= htmlentities($formation['id']) ?>">
                             <button>Edit</button>
                         </form>
                     </div>

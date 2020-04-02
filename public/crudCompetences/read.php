@@ -32,11 +32,11 @@ $softSkill = $statement->fetchAll(PDO::FETCH_ASSOC);
                     <div class="proggress"  style=" width: <?php echo htmlentities($infoCompetence['valuecompetence'])/5 ?>%;"><?php echo htmlentities($infoCompetence['valuecompetence']) ?>%</div>
                     <div class="read-btn">
                         <form action="harddelete.php" method="post">
-                            <input type="hidden" name="id" value="<?= $infoCompetence['id'] ?>">
+                            <input type="hidden" name="id" value="<?= htmlentities($infoCompetence)['id'] ?>">
                             <button>Delete</button>
                         </form>
                         <form action="hardupdate.php" method="get">
-                            <input type="hidden" name="id" value="<?= $infoCompetence['id'] ?>">
+                            <input type="hidden" name="id" value="<?= htmlentities($infoCompetence['id']) ?>">
                             <button>Edit</button>
                         </form>
                     </div>
@@ -52,16 +52,16 @@ $softSkill = $statement->fetchAll(PDO::FETCH_ASSOC);
         <div class="read-soft">
             <?php foreach ($softSkill as $skills ) : ?>
                 <div class="Soft">
-                    <p class="tittle-soft-skill"><span></span><?php echo $skills['namesoft'] . ' : ' ?></p>
-                    <p class="precisionSkill">( <?php echo $skills['itemsoft'] ?> )</p>
-                    <div class="proggress"  style=" width: <?php echo $skills['valuesoft']/5 ?>%;"><?php echo $skills['valuesoft'] . '%' ?></div>
+                    <p class="tittle-soft-skill"><span></span><?php echo htmlentities($skills['namesoft']) . ' : ' ?></p>
+                    <p class="precisionSkill">( <?php echo htmlentities($skills['itemsoft']) ?> )</p>
+                    <div class="proggress"  style=" width: <?php echo htmlentities($skills['valuesoft'])/5 ?>%;"><?php echo htmlentities($skills['valuesoft']) . '%' ?></div>
                     <div class="read-btn">
                         <form action="softdelete.php" method="post">
-                            <input type="hidden" name="id" value="<?= $skills['id'] ?>">
+                            <input type="hidden" name="id" value="<?= htmlentities($skills['id']) ?>">
                             <button>Delete</button>
                         </form>
                         <form action="softupdate.php" method="get">
-                            <input type="hidden" name="id" value="<?= $skills['id'] ?>">
+                            <input type="hidden" name="id" value="<?= htmlentities($skills['id']) ?>">
                             <button>Edit</button>
                         </form>
                     </div>

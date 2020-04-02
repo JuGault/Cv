@@ -2,22 +2,46 @@
 require '../../src/connec.php';
 require '../../src/databaseConnection.php';
 
-$namecompetence = [];
-$valuecompetence = [] ;
+$data = [];
+$errors = [];
 
 if ($_SERVER["REQUEST_METHOD"] === 'POST') {
-    $namecompetence = trim($_POST['namecompetence']);
-    $valuecompetence = trim($_POST['valuecompetence']);
-    $query = "INSERT INTO competence (namecompetence , valuecompetence) VALUES ( :namecompetence, :valuecompetence )";
-    $statement = $pdo->prepare($query);
-    $statement->bindValue(':namecompetence', $namecompetence, PDO::PARAM_STR);
-    $statement->bindValue(':valuecompetence', $valuecompetence, PDO::PARAM_INT);
 
 
-    $statement->execute(); // Execute a prepared request
+    foreach ($_POST as $key => $value) {
+        $data[$key] = trim($value);
+    }
 
-    $hardcompetence = $statement->fetchAll(); // Get data
-    header( 'location: ../index.php');
+    if (empty($data['namecompetence'])) {
+        $errors['namecompetence'] = 'The namecompetence is empty';
+    }
+    if (50 > strlen($data['namecompetence'])) {
+        $errors['namecompetence'] = 'This namecompetence is too long';
+    }
+
+    if (3 > strlen($data['valuecompetence'])) {
+        $errors['valuecompetence'] = 'This valuecompetence is too long';
+    }
+    if (empty($data['valuecompetence'])) {
+        $errors['valuecompetence'] = 'The valuecompetence is empty';
+    }
+
+    if (empty($errors)) {
+        $congratulation = 'Merci votre ' . htmlentities($data['namecompetence']) . ' a bien été ajouté!.';
+
+
+        $query = "INSERT INTO competence (namecompetence , valuecompetence) VALUES ( :namecompetence, :valuecompetence )";
+        $statement = $pdo->prepare($query);
+        $statement->bindValue(':namecompetence', $data['namecompetence'], PDO::PARAM_STR);
+        $statement->bindValue(':valuecompetence', $data['valuecompetence'], PDO::PARAM_INT);
+
+
+        $statement->execute(); // Execute a prepared request
+
+        $hardcompetence = $statement->fetchAll(); // Get data
+        sleep(2);
+        header('location: ../index.php');
+    }
 }
 ?>
 
@@ -33,13 +57,15 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
 </head>
 <body>
     <div class="form-create">
+        <?php if (!empty($congratulation)) : ?>
+            <div class="congratulation"><?= $congratulation ?></div><?php endif; ?>
         <form action="" method="post">
             <label for="namecompetence">Nom de la compétence</label>
             <input type="text" id="namecompetence" name="namecompetence" required>
-
+            <div class="errors"><?= $errors['namecompetence'] ?? '' ?></div>
             <label for="valuecompetence">niveau de maitrise de la compétence (%)</label>
             <input type="number" id="valuecompetence" name="valuecompetence" required>
-
+            <div class="errors"><?= $errors['valuecompetence'] ?? '' ?></div>
             <input class="submit" type="submit" value="submit">
             <a href="read.php">Retour</a>
         </form>

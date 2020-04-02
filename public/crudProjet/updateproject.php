@@ -13,11 +13,33 @@ $project = $statement->fetch(PDO::FETCH_ASSOC);
 
 
 $data = [];
-if ($_SERVER["REQUEST_METHOD"] === 'POST') {
-    foreach ($_POST as $key => $value) {
-        $data[$key] = trim($value);
-    }
+$errors = [];
 
+if ($_SERVER["REQUEST_METHOD"] === 'POST') {
+foreach ($_POST as $key => $value) {
+    $data[$key] = trim($value);
+}
+
+if (empty($data['nameproject'])) {
+    $errors['nameproject'] = 'The nameproject is empty';
+}
+if (50 > strlen($data['nameproject'])) {
+    $errors['nameproject'] = 'This nameproject is too long';
+}
+if (empty($data['picture'])) {
+    $errors['picture'] = 'The picture is empty';
+}
+if (250 > strlen($data['picture'])) {
+    $errors['picture'] = 'This picture is too long';
+}
+if (empty($data['link'])) {
+    $errors['link'] = 'The link is empty';
+}
+if (150 > strlen($data['link'])) {
+    $errors['link'] = 'This link is too long';
+}
+if (empty($errors)) {
+    $congratulation = 'Merci votre ' . htmlentities($data['nameinfo']) . ' a bien été mis à jour!.';
     $query = "UPDATE project SET nameproject= :nameproject, picture= :picture, link= :link WHERE id= :id";
     $statement = $pdo->prepare($query);
     $statement->bindValue(':nameproject', $data['nameproject'], PDO::PARAM_STR);
@@ -28,7 +50,9 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     $statement->execute(); // Execute a prepared request
 
     $project = $statement->fetchAll(); // Get data
+    sleep(2);
     header('location: ../index.php');
+    }
 }
 ?>
 <!doctype html>
@@ -43,16 +67,18 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
 </head>
 <body>
     <div class="form-update">
+        <?php if (!empty($congratulation)) : ?>
+            <div class="congratulation"><?= $congratulation ?></div><?php endif; ?>
         <form action="" method="post">
             <label for="nameproject">Nom du projet</label>
-            <input type="text" id="nameproject" name="nameproject" value="<?= $project['nameproject'] ?>" required>
-
+            <input type="text" id="nameproject" name="nameproject" value="<?= htmlentities($project['nameproject']) ?>" required>
+            <div class="errors"><?= $errors['nameproject'] ?? '' ?></div>
             <label for="picture">Image du projet</label>
-            <input type="text" id="picture" name="picture" value="<?= $project['picture'] ?>" required>
-
+            <input type="text" id="picture" name="picture" value="<?= htmlentities($project['picture']) ?>" required>
+            <div class="errors"><?= $errors['picture'] ?? '' ?></div>
             <label for="link">lien du projet</label>
-            <input type="url" id="link" name="link" value="<?= $project['link'] ?>" required>
-
+            <input type="url" id="link" name="link" value="<?= htmlentities($project['link']) ?>" required>
+            <div class="errors"><?= $errors['link'] ?? '' ?></div>
             <input class="submit" type="submit" value="edit">
             <a href="readproject.php">Retour</a>
         </form>

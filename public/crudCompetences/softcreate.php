@@ -2,25 +2,52 @@
 require '../../src/connec.php';
 require '../../src/databaseConnection.php';
 
-$namesoft = [];
-$itemsoft = [];
-$valuesoft = [] ;
+$data = [];
+$errors = [];
 
 if ($_SERVER["REQUEST_METHOD"] === 'POST') {
-    $namesoft = trim($_POST['namesoft']);
-    $itemsoft = trim($_POST['itemsoft']);
-    $valuesoft = trim($_POST['valuesoft']);
-    $query = "INSERT INTO softSkill (namesoft , itemsoft, valuesoft) VALUES ( :namesoft, :itemsoft, :valuesoft )";
-    $statement = $pdo->prepare($query);
-    $statement->bindValue(':namesoft', $namesoft, PDO::PARAM_STR);
-    $statement->bindValue(':itemsoft', $itemsoft, PDO::PARAM_STR);
-    $statement->bindValue(':valuesoft', $valuesoft, PDO::PARAM_INT);
+
+    foreach ($_POST as $key => $value) {
+        $data[$key] = trim($value);
+    }
+
+    if (empty($data['namesoft'])) {
+        $errors['namesoft'] = 'The namesoft is empty';
+    }
+    if (50 > strlen($data['namesoft'])) {
+        $errors['namesoft'] = 'This namesoft is too long';
+    }
+
+    if (255 > strlen($data['itemsoft'])) {
+        $errors['itemsoft'] = 'This itemsoft is too long';
+    }
+    if (empty($data['itemsoft'])) {
+        $errors['itemsoft'] = 'The itemsoft is empty';
+    }
+    if (3 > strlen($data['valuesoft'])) {
+        $errors['valuesoft'] = 'This valuesoft is too long';
+    }
+    if (empty($data['valuesoft'])) {
+        $errors['valuesoft'] = 'The valuesoft is empty';
+    }
 
 
-    $statement->execute(); // Execute a prepared request
+    if (empty($errors)) {
+        $congratulation = 'Merci votre ' . htmlentities($data['namesoft']) . ' a bien été crée!.';
 
-    $softSkill = $statement->fetchAll(); // Get data
-    header( 'location: ../index.php');
+        $query = "INSERT INTO softSkill (namesoft , itemsoft, valuesoft) VALUES ( :namesoft, :itemsoft, :valuesoft )";
+        $statement = $pdo->prepare($query);
+        $statement->bindValue(':namesoft', $data['namesoft'], PDO::PARAM_STR);
+        $statement->bindValue(':itemsoft', $data['itemsoft'], PDO::PARAM_STR);
+        $statement->bindValue(':valuesoft', $data['valuesoft'], PDO::PARAM_INT);
+
+
+        $statement->execute(); // Execute a prepared request
+
+        $softSkill = $statement->fetchAll(); // Get data
+        sleep(2);
+        header('location: ../index.php');
+    }
 }
 ?>
 
@@ -36,16 +63,18 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
 </head>
 <body>
     <div class="form-create">
+        <?php if (!empty($congratulation)) : ?>
+            <div class="congratulation"><?= $congratulation ?></div><?php endif; ?>
         <form action="" method="post">
             <label for="namesoft">Nom du softskill</label>
             <input type="text" id="namesoft" name="namesoft" required>
-
+            <div class="errors"><?= $errors['namesoft'] ?? '' ?></div>
             <label for="itemsoft">item du softskill</label>
             <input type="text" id="itemsoft" name="itemsoft" required>
-
+            <div class="errors"><?= $errors['itemsoft'] ?? '' ?></div>
             <label for="valuesoft">niveau de maitrise (%)</label>
             <input type="number" id="valuesoft" name="valuesoft" required>
-
+            <div class="errors"><?= $errors['valuesoft'] ?? '' ?></div>
             <input class="submit" type="submit" value="submit">
             <a href="read.php">Retour</a>
         </form>
