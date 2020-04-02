@@ -32,16 +32,19 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-    <form action="" method="post">
-        <label for="namecompetence">Nom de la compétence</label>
-        <input type="text" id="namecompetence" name="namecompetence" required>
+    <div class="form-create">
+        <form action="" method="post">
+            <label for="namecompetence">Nom de la compétence</label>
+            <input type="text" id="namecompetence" name="namecompetence" required>
 
-        <label for="valuecompetence"></label>
-        <input type="number" id="valuecompetence" name="valuecompetence" required>
+            <label for="valuecompetence">niveau de maitrise de la compétence (%)</label>
+            <input type="number" id="valuecompetence" name="valuecompetence" required>
 
-        <input type="submit" value="submit">
+            <input class="submit" type="submit" value="submit">
+            <a href="read.php">Retour</a>
+        </form>
 
-    </form>
+    </div>
 
 </body>
 </html>

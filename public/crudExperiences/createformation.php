@@ -35,22 +35,25 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-<form action="" method="post">
-    <label for="nameformation">Nom de la formation</label>
-    <input type="text" id="nameformation" name="nameformation" required>
+    <div class="form-create">
+        <form action="" method="post">
+            <label for="nameformation">Nom de la formation</label>
+            <input type="text" id="nameformation" name="nameformation" required>
 
-    <label for="lieu">Nom et/ou Adresse du lieu de formation</label>
-    <input type="text" id="lieu" name="lieu" required>
+            <label for="lieu">Nom et/ou Adresse du lieu de formation</label>
+            <input type="text" id="lieu" name="lieu" required>
 
-    <label for="debut">Année du début de formation</label>
-    <input type="number" id="debut" name="debut" required>
+            <label for="debut">Année du début de formation</label>
+            <input type="number" id="debut" name="debut" required>
 
-    <label for="fin">Année de fin de formation</label>
-    <input type="number" id="fin" name="fin">
+            <label for="fin">Année de fin de formation</label>
+            <input type="number" id="fin" name="fin">
 
-    <input type="submit" value="submit">
+            <input class="submit" type="submit" value="submit">
+            <a href="readexperience.php">Retour</a>
+        </form>
 
-</form>
+    </div>
 
 </body>
 </html>

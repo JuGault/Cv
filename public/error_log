@@ -1333,3 +1333,75 @@ Stack trace:
 [01-Apr-2020 16:09:29 UTC] PHP Stack trace:
 [01-Apr-2020 16:09:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
 [01-Apr-2020 16:09:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[01-Apr-2020 21:47:09 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[01-Apr-2020 21:47:09 UTC] PHP Stack trace:
+[01-Apr-2020 21:47:09 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 21:47:09 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[01-Apr-2020 21:47:09 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[01-Apr-2020 21:47:09 UTC] PHP Stack trace:
+[01-Apr-2020 21:47:09 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 21:47:09 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[01-Apr-2020 21:47:22 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[01-Apr-2020 21:47:22 UTC] PHP Stack trace:
+[01-Apr-2020 21:47:22 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 21:47:22 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[01-Apr-2020 21:47:22 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[01-Apr-2020 21:47:22 UTC] PHP Stack trace:
+[01-Apr-2020 21:47:22 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 21:47:22 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[01-Apr-2020 21:50:13 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[01-Apr-2020 21:50:13 UTC] PHP Stack trace:
+[01-Apr-2020 21:50:13 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 21:50:13 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[01-Apr-2020 21:50:13 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[01-Apr-2020 21:50:13 UTC] PHP Stack trace:
+[01-Apr-2020 21:50:13 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 21:50:13 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[01-Apr-2020 21:52:43 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[01-Apr-2020 21:52:43 UTC] PHP Stack trace:
+[01-Apr-2020 21:52:43 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 21:52:43 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[01-Apr-2020 21:52:43 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[01-Apr-2020 21:52:43 UTC] PHP Stack trace:
+[01-Apr-2020 21:52:43 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[01-Apr-2020 21:52:43 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:01:44 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[02-Apr-2020 08:01:44 UTC] PHP Stack trace:
+[02-Apr-2020 08:01:44 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:01:44 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:01:44 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[02-Apr-2020 08:01:44 UTC] PHP Stack trace:
+[02-Apr-2020 08:01:44 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:01:44 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:02:34 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[02-Apr-2020 08:02:34 UTC] PHP Stack trace:
+[02-Apr-2020 08:02:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:02:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:02:34 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[02-Apr-2020 08:02:34 UTC] PHP Stack trace:
+[02-Apr-2020 08:02:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:02:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:03:40 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[02-Apr-2020 08:03:40 UTC] PHP Stack trace:
+[02-Apr-2020 08:03:40 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:03:40 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:03:40 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[02-Apr-2020 08:03:40 UTC] PHP Stack trace:
+[02-Apr-2020 08:03:40 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:03:40 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:04:37 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[02-Apr-2020 08:04:37 UTC] PHP Stack trace:
+[02-Apr-2020 08:04:37 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:04:37 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:04:37 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[02-Apr-2020 08:04:37 UTC] PHP Stack trace:
+[02-Apr-2020 08:04:37 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:04:37 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:05:11 UTC] PHP Notice:  Undefined index: Name in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 25
+[02-Apr-2020 08:05:11 UTC] PHP Stack trace:
+[02-Apr-2020 08:05:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:05:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41
+[02-Apr-2020 08:05:11 UTC] PHP Notice:  Undefined index: Company in /home/wilder/quetes/shell/Cv/public/php/contact.php on line 28
+[02-Apr-2020 08:05:11 UTC] PHP Stack trace:
+[02-Apr-2020 08:05:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/public/index.php:0
+[02-Apr-2020 08:05:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/public/index.php:41

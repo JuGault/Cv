@@ -42,20 +42,22 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-<form action="" method="post">
-    <label for="nameproject">Nom du projet</label>
-    <input type="text" id="nameproject" name="nameproject" value="<?= $project['nameproject'] ?>" required>
+    <div class="form-update">
+        <form action="" method="post">
+            <label for="nameproject">Nom du projet</label>
+            <input type="text" id="nameproject" name="nameproject" value="<?= $project['nameproject'] ?>" required>
 
-    <label for="picture">Image du projet</label>
-    <input type="text" id="picture" name="picture" value="<?= $project['picture'] ?>" required>
+            <label for="picture">Image du projet</label>
+            <input type="text" id="picture" name="picture" value="<?= $project['picture'] ?>" required>
 
-    <label for="link">lien du projet</label>
-    <input type="url" id="link" name="link" value="<?= $project['link'] ?>" required>
+            <label for="link">lien du projet</label>
+            <input type="url" id="link" name="link" value="<?= $project['link'] ?>" required>
 
+            <input class="submit" type="submit" value="edit">
+            <a href="readproject.php">Retour</a>
+        </form>
 
-    <input type="submit" value="submit">
-
-</form>
+    </div>
 
 </body>
 </html>

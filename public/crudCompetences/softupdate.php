@@ -41,21 +41,22 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-<form action="" method="post">
-    <label for="namesoft">Nom du softskill</label>
-    <input type="text" id="namesoft" name="namesoft" value="<?= $softSkill['namesoft'] ?>" required>
+    <div class="form-update">
+        <form action="" method="post">
+            <label for="namesoft">Nom du softskill</label>
+            <input type="text" id="namesoft" name="namesoft" value="<?= $softSkill['namesoft'] ?>" required>
 
-    <label for="itemsoft">item du softskill</label>
-    <input type="text" id="itemsoft" name="itemsoft" value="<?= $softSkill['itemsoft'] ?>" required>
+            <label for="itemsoft">item du softskill</label>
+            <input type="text" id="itemsoft" name="itemsoft" value="<?= $softSkill['itemsoft'] ?>" required>
 
-    <label for="valuesoft">valeur du softskill</label>
-    <input type="number" id="valuesoft" name="valuesoft" value="<?= $softSkill['valuesoft'] ?>" required>
+            <label for="valuesoft">valeur du softskill</label>
+            <input type="number" id="valuesoft" name="valuesoft" value="<?= $softSkill['valuesoft'] ?>" required>
 
+            <input class="submit" type="submit" value="submit">
+            <a href="read.php">Retour</a>
+        </form>
 
-
-    <input type="submit" value="submit">
-
-</form>
+    </div>
 
 </body>
 </html>

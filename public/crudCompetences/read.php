@@ -71,6 +71,7 @@ $softSkill = $statement->fetchAll(PDO::FETCH_ASSOC);
 
             <?php endforeach; ?>
         </div>
+        <a href="../php/Edit.php">Retour</a>
     </div>
 
 

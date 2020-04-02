@@ -31,7 +31,9 @@
     flex-direction: column;
     height: auto;
     width: 90%;
-    box-shadow: 1px 5px 22px 8px var(--main-color);
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
    /* margin: auto;*/
     background: var(--dark);
 }
@@ -108,7 +110,6 @@
     font-family: var(--main-font);
     color: var(--light);
     text-transform: capitalize;
-   /* outline: 1px solid transparent;*/
     border: 1px solid var(--main-color);
     background: #201f1f;
 }
@@ -218,7 +219,6 @@ input[type="checkbox"]:checked {
         font-family: var(--main-font);
         color: var(--light);
         text-transform: capitalize;
-        /* outline: 1px solid transparent;*/
         border: 1px solid var(--main-color);
         background: #201f1f;
     }

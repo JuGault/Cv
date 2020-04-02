@@ -42,20 +42,22 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-<form action="" method="post">
-    <label for="nameinfo">Nom de l'information</label>
-    <input type="text" id="nameinfo" name="nameinfo" value="<?= $infoPerso['nameinfo'] ?>" required>
+    <div class="form-update">
+        <form action="" method="post">
+            <label for="nameinfo">Nom de l'information</label>
+            <input type="text" id="nameinfo" name="nameinfo" value="<?= $infoPerso['nameinfo'] ?>" required>
 
-    <label for="info">information</label>
-    <input type="text" id="info" name="info" value="<?= $infoPerso['info'] ?>" required>
+            <label for="info">Information</label>
+            <input type="text" id="info" name="info" value="<?= $infoPerso['info'] ?>" required>
 
-    <label for="icon">Chemin de l'icone</label>
-    <input type="text" id="icon" name="icon" value="<?= $infoPerso['icon'] ?>" required>
+            <label for="icon">Chemin de l'icone</label>
+            <input type="text" id="icon" name="icon" value="<?= $infoPerso['icon'] ?>" required>
 
+            <input class="submit" type="submit" value="edit">
+            <a href="readInfoPerso.php">Retour</a>
+        </form>
 
-    <input type="submit" value="submit">
-
-</form>
+    </div>
 
 </body>
 </html>

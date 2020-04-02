@@ -44,23 +44,26 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-<form action="" method="post">
-    <label for="nameformation">Nom de la formation</label>
-    <input type="text" id="nameformation" name="nameformation" value="<?= $formation['nameformation'] ?>" required>
+    <div class="form-update">
+        <form action="" method="post">
+            <label for="nameformation">Nom de la formation</label>
+            <input type="text" id="nameformation" name="nameformation" value="<?= $formation['nameformation'] ?>" required>
 
-    <label for="lieu">Nom et/ou Adresse du lieu de formation</label>
-    <input type="text" id="lieu" name="lieu" value="<?= $formation['lieu'] ?>" required>
+            <label for="lieu">Nom et/ou Adresse du lieu de formation</label>
+            <input type="text" id="lieu" name="lieu" value="<?= $formation['lieu'] ?>" required>
 
-    <label for="debut">Année du début de la formation</label>
-    <input type="number" id="debut" name="debut" value="<?= $formation['debut'] ?>" required>
+            <label for="debut">Année du début de la formation</label>
+            <input type="number" id="debut" name="debut" value="<?= $formation['debut'] ?>" required>
 
-    <label for="fin">Année de fin de la formation</label>
-    <input type="number" id="fin" name="fin"
-           value="<?= $fin = (empty($formation['fin'])) ? '' : $formation['fin'] ?>">
+            <label for="fin">Année de fin de la formation</label>
+            <input type="number" id="fin" name="fin"
+                   value="<?= $fin = (empty($formation['fin'])) ? '' : $formation['fin'] ?>">
 
-    <input type="submit" value="submit">
+            <input class="submit" type="submit" value="edit">
+            <a href="readexperience.php">Retour</a>
+        </form>
 
-</form>
+    </div>
 
 </body>
 </html>

@@ -34,20 +34,22 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-<form action="" method="post">
-    <label for="nameproject">Nom du projet</label>
-    <input type="text" id="nameproject" name="nameproject"  required>
+    <div class="form-create">
+        <form action="" method="post">
+            <label for="nameproject">Nom du projet</label>
+            <input type="text" id="nameproject" name="nameproject"  required>
 
-    <label for="picture">Image du projet</label>
-    <input type="text" id="picture" name="picture"  required>
+            <label for="picture">Image du projet</label>
+            <input type="text" id="picture" name="picture"  required>
 
-    <label for="link">lien du projet</label>
-    <input type="url" id="link" name="link"  required>
+            <label for="link">lien du projet</label>
+            <input type="url" id="link" name="link"  required>
 
+            <input class="submit" type="submit" value="submit">
+            <a href="readproject.php">Retour</a>
+        </form>
 
-    <input type="submit" value="submit">
-
-</form>
+    </div>
 
 </body>
 </html>

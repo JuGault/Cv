@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     $statement = $pdo->prepare($query);
     $statement->bindValue(':nameinfo', $data['nameinfo'], PDO::PARAM_STR);
     $statement->bindValue(':info', $data['info'], PDO::PARAM_STR);
-    $statement->bindValue(':icon', $data['icon'], PDO::PARAM_INT);
+    $statement->bindValue(':icon', $data['icon'], PDO::PARAM_STR);
 
 
     $statement->execute(); // Execute a prepared request
@@ -34,20 +34,22 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-<form action="" method="post">
-    <label for="nameinfo">Nom de l'information</label>
-    <input type="text" id="nameinfo" name="nameinfo" required>
+    <div class="form-create">
+        <form action="" method="post">
+            <label for="nameinfo">Nom de l'information</label>
+            <input type="text" id="nameinfo" name="nameinfo" required>
 
-    <label for="info">information</label>
-    <input type="text" id="info" name="info" required>
+            <label for="info">Information</label>
+            <input type="text" id="info" name="info" required>
 
-    <label for="icon">Chemin de l'icone</label>
-    <input type="text" id="icon" name="icon" required>
+            <label for="icon">Chemin de l'icone</label>
+            <input type="text" id="icon" name="icon" required>
 
+            <input class="submit" type="submit" value="submit">
+            <a href="readInfoPerso.php">Retour</a>
+        </form>
 
-    <input type="submit" value="submit">
-
-</form>
+    </div>
 
 </body>
 </html>

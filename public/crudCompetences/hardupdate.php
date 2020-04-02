@@ -41,16 +41,19 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-<form action="" method="post">
-    <label for="namecompetence">Nom de la compétence</label>
-    <input type="text" id="namecompetence" name="namecompetence" value="<?= $competence['namecompetence'] ?>" required>
+    <div class="form-update">
+        <form action="" method="post">
+            <label for="namecompetence">Nom de la compétence</label>
+            <input type="text" id="namecompetence" name="namecompetence" value="<?= $competence['namecompetence'] ?>" required>
 
-    <label for="valuecompetence">Niveau de maitrise de la compétence (%)</label>
-    <input type="number" id="valuecompetence" name="valuecompetence" value="<?= $competence['valuecompetence'] ?>" required>
+            <label for="valuecompetence">Niveau de maitrise de la compétence (%)</label>
+            <input type="number" id="valuecompetence" name="valuecompetence" value="<?= $competence['valuecompetence'] ?>" required>
 
-    <button>edit</button>
+            <input class="submit" type="submit" value="edit">
+            <a href="read.php">Retour</a>
+        </form>
 
-</form>
+    </div>
 
 </body>
 </html>

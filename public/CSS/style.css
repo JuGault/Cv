@@ -13,10 +13,10 @@
 
 :root {
 
-    --main-color: rgba(70,252,244,1);
+    --main-color: rgb(69, 242, 234);
     --dark: rgb(29, 28, 28);
     --dark-sec: rgb(0, 0, 0);
-    --light: rgb(255, 255, 234);
+    --light: rgb(255, 255, 255);
     --main-font: 'Oxanium', cursive;
     --title-font: 'Permanent Marker', cursive;
 

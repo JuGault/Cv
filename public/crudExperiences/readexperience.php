@@ -85,6 +85,7 @@ require '../../src/databaseConnection.php';
                 <?php endforeach; ?>
             </div>
         </div>
+        <a href="../php/Edit.php">Retour</a>
     </div>
 
 </body>
