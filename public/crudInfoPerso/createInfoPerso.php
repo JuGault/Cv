@@ -15,19 +15,19 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     if (empty($data['nameinfo'])) {
         $errors['nameinfo'] = 'The nameinfo is empty';
     }
-    if (100 > strlen($data['nameinfo'])) {
+    if (strlen($data['nameinfo']) > 100) {
         $errors['nameinfo'] = 'This nameinfo is too long';
     }
     if (empty($data['info'])) {
         $errors['info'] = 'The info is empty';
     }
-    if (100 > strlen($data['info'])) {
+    if (strlen($data['info']) > 100) {
         $errors['info'] = 'This info is too long';
     }
     if (empty($data['icon'])) {
         $errors['icon'] = 'The icon is empty';
     }
-    if (100 > strlen($data['icon'])) {
+    if (strlen($data['icon']) > 100) {
         $errors['icon'] = 'This icon is too long';
     }
     if (empty($errors)) {

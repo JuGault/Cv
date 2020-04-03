@@ -16,23 +16,23 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     if (empty($data['nameexperience'])) {
         $errors['nameexperience'] = 'The nameexperience is empty';
     }
-    if (100 > strlen($data['nameexperience'])) {
+    if (strlen($data['nameexperience']) > 100) {
         $errors['nameexperience'] = 'This nameexperience is too long';
     }
     if (empty($data['lieu'])) {
         $errors['lieu'] = 'The lieu is empty';
     }
-    if (100 > strlen($data['lieu'])) {
+    if (strlen($data['lieu'])  > 100) {
         $errors['lieu'] = 'This lieu is too long';
     }
     if (empty($data['debut'])) {
         $errors['debut'] = 'The debut is empty';
     }
-    if (4 == strlen($data['debut'])) {
+    if (strlen($data['debut']) == 4) {
         $errors['debut'] = 'This debut is wrong, the format must be AAAA .';
     }
 
-    if (4 == strlen($data['fin'])) {
+    if (strlen($data['fin']) == 4) {
         $errors['fin'] = 'This fin is wrong, the format must be AAAA';
     }
 

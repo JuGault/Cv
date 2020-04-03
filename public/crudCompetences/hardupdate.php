@@ -19,11 +19,11 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     if (empty($data['namecompetence'])) {
         $errors['namecompetence'] = 'The namecompetence is empty';
     }
-    if (50 > strlen($data['namecompetence'])) {
+    if (strlen($data['namecompetence']) > 50) {
         $errors['namecompetence'] = 'This namecompetence is too long';
     }
 
-    if (3 > strlen($data['valuecompetence'])) {
+    if (strlen($data['valuecompetence']) > 3) {
         $errors['valuecompetence'] = 'This valuecompetence is too long';
     }
     if (empty($data['valuecompetence'])) {

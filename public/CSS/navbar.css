@@ -21,14 +21,13 @@ header {
     text-decoration: none;
     background-color: var(--main-color);
     transition-property: background-color;
-    transition-duration: 0.5s;
+    transition-duration: 2s;
     border-radius: 60%;
     font-size: 1.5vw;
 }
 
 
 .headernav a:hover {
-   /* background-color: var(--dark);*/
     color: var(--light);
     text-decoration: underline;
 
@@ -83,6 +82,7 @@ header {
     }
     .links a:active {
         text-decoration: underline;
+
     }
 
 

@@ -29,14 +29,14 @@ $softSkill = $statement->fetchAll(PDO::FETCH_ASSOC);
 
                 <div class="Hard">
                     <p class="tittle-hard-skill"><span></span><?php echo htmlentities($infoCompetence['namecompetence']) ?></p>
-                    <div class="proggress"  style=" width: <?php echo htmlentities($infoCompetence['valuecompetence'])/5 ?>%;"><?php echo htmlentities($infoCompetence['valuecompetence']) ?>%</div>
+                    <div class="proggress"  style=" width: <?php echo $infoCompetence['valuecompetence']/5 ?>%;"><?php echo htmlentities($infoCompetence['valuecompetence']) ?>%</div>
                     <div class="read-btn">
                         <form action="harddelete.php" method="post">
-                            <input type="hidden" name="id" value="<?= htmlentities($infoCompetence)['id'] ?>">
+                            <input type="hidden" name="id" value="<?= $infoCompetence['id'] ?>">
                             <button>Delete</button>
                         </form>
                         <form action="hardupdate.php" method="get">
-                            <input type="hidden" name="id" value="<?= htmlentities($infoCompetence['id']) ?>">
+                            <input type="hidden" name="id" value="<?= $infoCompetence['id'] ?>">
                             <button>Edit</button>
                         </form>
                     </div>

@@ -15,19 +15,19 @@ foreach ($_POST as $key => $value) {
 if (empty($data['nameproject'])) {
     $errors['nameproject'] = 'The nameproject is empty';
 }
-if (50 > strlen($data['nameproject'])) {
+if (strlen($data['nameproject']) > 50) {
     $errors['nameproject'] = 'This nameproject is too long';
 }
 if (empty($data['picture'])) {
     $errors['picture'] = 'The picture is empty';
 }
-if (250 > strlen($data['picture'])) {
+if (strlen($data['picture']) > 250) {
     $errors['picture'] = 'This picture is too long';
 }
 if (empty($data['link'])) {
     $errors['link'] = 'The link is empty';
 }
-if (150 > strlen($data['link'])) {
+if (strlen($data['link']) > 150) {
     $errors['link'] = 'This link is too long';
 }
 if (empty($errors)) {

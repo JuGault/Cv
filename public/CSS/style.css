@@ -28,7 +28,9 @@
     --breakpoint-tablet: 788px;
     --breakpoint-tablet--breakpoint-mobile: 414px;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;

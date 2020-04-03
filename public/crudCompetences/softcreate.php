@@ -14,17 +14,17 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     if (empty($data['namesoft'])) {
         $errors['namesoft'] = 'The namesoft is empty';
     }
-    if (50 > strlen($data['namesoft'])) {
+    if (strlen($data['namesoft']) > 50) {
         $errors['namesoft'] = 'This namesoft is too long';
     }
 
-    if (255 > strlen($data['itemsoft'])) {
+    if (strlen($data['itemsoft']) > 255  ) {
         $errors['itemsoft'] = 'This itemsoft is too long';
     }
     if (empty($data['itemsoft'])) {
         $errors['itemsoft'] = 'The itemsoft is empty';
     }
-    if (3 > strlen($data['valuesoft'])) {
+    if (strlen($data['valuesoft']) > 3) {
         $errors['valuesoft'] = 'This valuesoft is too long';
     }
     if (empty($data['valuesoft'])) {

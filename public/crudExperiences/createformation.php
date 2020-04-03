@@ -14,23 +14,23 @@ foreach ($_POST as $key => $value) {
 if (empty($data['nameformation'])) {
     $errors['nameformation'] = 'The nameformation is empty';
 }
-if (100 > strlen($data['nameformation'])) {
+if (strlen($data['nameformation']) > 100) {
     $errors['nameformation'] = 'This nameformation is too long';
 }
 if (empty($data['lieu'])) {
     $errors['lieu'] = 'The lieu is empty';
 }
-if (100 > strlen($data['lieu'])) {
+if (strlen($data['lieu']) > 100) {
     $errors['lieu'] = 'This lieu is too long';
 }
 if (empty($data['debut'])) {
     $errors['debut'] = 'The debut is empty';
 }
-if (4 == strlen($data['debut'])) {
+if (strlen($data['debut']) == 4) {
     $errors['debut'] = 'This debut is wrong, the format must be AAAA .';
 }
 
-if (4 == strlen($data['fin'])) {
+if (strlen($data['fin']) == 4) {
     $errors['fin'] = 'This fin is wrong, the format must be AAAA';
 }
 
