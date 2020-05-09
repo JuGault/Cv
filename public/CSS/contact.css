@@ -1,0 +1,246 @@
+#contact {
+   /* height: 94vh;*/
+}
+.contact {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    height: 100%;
+}
+.congratulation {
+    background: limegreen;
+    font-size: 30px;
+    text-align: center;
+}
+/* GAUCHE */
+
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.contact-info iframe {
+     width: 80%;
+     margin: 2% 0;
+ }
+.general-info {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+   /* margin: auto;*/
+    background: var(--dark);
+}
+
+.Info-perso {
+    display: flex;
+    height: 10%;
+    margin: 2% 0 ;
+    align-items: center;
+
+}
+.Info-perso p {
+    margin-left: 2%;
+}
+.Info-perso img {
+    width: 5%;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+/* DROITE */
+#formulaire_mail {
+    width: 50%;
+}
+#formulaire_mail fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 2%;
+    height: 100%;
+}
+.input-group {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.input-group input {
+    width: 80%;
+  /*  height: auto;*/
+    padding: 5px 20px;
+    font-size: 16px;
+    color: var(--light);
+    text-transform: capitalize;
+    border: 1px solid var(--main-color);
+    background: #201f1f;
+    font-family: var(--main-font);
+}
+.errors {
+    color: red;
+    width: 80%;
+    padding: 5px 20px;
+
+}
+
+.area-group {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    height: 60%;
+}
+.area-group textarea {
+    height: 60%;
+    resize: none;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: var(--main-font);
+    color: var(--light);
+    text-transform: capitalize;
+    border: 1px solid var(--main-color);
+    background: #201f1f;
+}
+
+.area-group .btn {
+    width: 20%;
+    height: 10%;
+    align-self: flex-end;
+    margin: 2%;
+    background-color: var(--main-color);
+    border: none;
+    color: var(--light);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 28px;
+}
+.area-group .btn:hover {
+    background-color: #42C1FC;
+}
+.Check-group {
+    display: flex;
+    margin: 1%;
+    flex-direction: column;
+}
+.single-check {
+    display: flex;
+    margin: 1%;
+}
+.single-check label {
+    margin-left: 3%;
+}
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 3px solid var(--main-color);
+}
+input[type="checkbox"]:checked {
+    background: var(--main-color);
+    margin: 0px;
+
+}
+
+@media screen and (max-width: 788px) {
+    #formulaire_mail {
+        margin: 0;
+    }
+    #formulaire_mail fieldset {
+        border: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2%;
+        height: 100%;
+    }
+    .input-group {
+        height: 45%;
+    }
+    .contact-info {
+        margin: 0;
+    }
+    .general-info {
+        margin: 5% auto;
+    }
+    .general-info p {
+        font-size: 2vw;
+    }
+    .general-info img {
+        display: none;
+    }
+    .Info-perso {
+        display: block;
+    }
+    .area-group {
+        margin: 5% auto;
+
+    }
+    .area-group .btn {
+        width: 40%;
+        height: 10%;
+        align-self: flex-end;
+        margin: 2%;
+        background-color: var(--main-color);
+        border: none;
+        color: var(--light);
+        text-decoration: none;
+        /*font-size: 20px;*/
+        border-radius: 28px;
+    }
+    .single-check {
+        margin: 3% 0;
+    }
+    .congratulation {
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 414px){
+    .area-group textarea {
+        height: 150px;
+        resize: none;
+        margin-bottom: 15px;
+        padding: 0px;
+        font-size: 16px;
+        font-family: var(--main-font);
+        color: var(--light);
+        text-transform: capitalize;
+        border: 1px solid var(--main-color);
+        background: #201f1f;
+    }
+    iframe {
+        display: none;
+    }
+    .contact {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .contact-info {
+
+        width: 100%;
+        align-items: center;
+    }
+    .general-info p {
+        font-size: 4vw;
+    }
+    #formulaire_mail {
+        width: 100%;
+    }
+    .congratulation {
+        font-size: 5vw;
+    }
+}

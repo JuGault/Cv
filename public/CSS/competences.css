@@ -1,0 +1,199 @@
+
+.skills {
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+.skills img {
+    height: 50px;
+    margin-right: 2%;
+}
+.soft-skills span , .hard-skills span {
+    width: 1vw;
+    height: 1vw;
+    border: 3px solid var(--main-color);
+    display: inline-block;
+    margin: 2%;
+    border-radius: 50%;
+}
+/* HARD-SKILLS */
+.hard-skills {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    align-self: center;
+    padding: 2%;
+    background: var(--dark);
+}
+.hard-skills div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+}
+.hard-skills .proggress {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 25%;
+    margin: 0;
+    background-color: var(--main-color);
+    height: 1.4vw;
+    border-radius: 6px;
+    font-size: 1.3vw;
+ }
+
+.hard-skills .title-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.hard-skills .tittle-hard-skill {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+/* SOFT-SKILL */
+
+.soft-skills .proggress {
+    position: absolute;
+    left: 75%;
+
+    margin: 0;
+    background-color: var(--main-color);
+    height: 1.6vw;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.4vw;
+
+}
+
+.soft-skills {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    padding: 0 2%;
+    background: var(--dark);
+}
+.soft-skills div {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+}
+
+.soft-skills .title-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    flex-direction: row;
+}
+
+.soft-skills .tittle-soft-skill {
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}
+
+.precisionSkill {
+    margin: 2% 2% 2% 3%;
+
+}
+@media screen and (max-width: 768px) {
+    #competences hr {
+        display: none;
+    }
+    .skills {
+        display: inline-block;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .skills img {
+        height: 50px;
+        margin-right: 2%;
+    }
+    .soft-skills span , .hard-skills span {
+        width: 3vw;
+        height: 3vw;
+        border: 3px solid var(--main-color);
+        display: inline-block;
+        margin: 2%;
+        border-radius: 50%;
+    }
+    /* HARD-SKILLS */
+    .hard-skills {
+        align-items: center;
+        width: 80%;
+        margin: auto auto 5%;
+    }
+    .hard-skills div {
+        align-items: center;
+    }
+    .hard-skills .proggress {
+         display: none;
+     }
+    /* SOFT-SKILL */
+
+    .soft-skills .proggress {
+        display: none;
+    }
+
+    .soft-skills {
+        align-items: center;
+        width: 80%;
+        margin: auto auto 5%;
+    }
+
+
+    .soft-skills .tittle-soft-skill {
+        display: flex;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .precisionSkill {
+        margin: 2% 2% 2% 3%;
+        font-size: 2.5vw;
+    }
+
+
+
+}
+
+@media screen and (max-width: 414px){
+    .hard-skills {
+        width: 100%;
+        margin: 10% auto 15%;
+    }
+    .hard-skills .tittle-hard-skill {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: start;
+    }
+    .soft-skills {
+        align-items: center;
+        width: 100%;
+        margin: 10% auto 10%;
+
+    }
+    .precisionSkill {
+        margin: 2% 2% 2% 3%;
+        font-size: 3.5vw;
+    }
+
+}

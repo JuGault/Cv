@@ -1,0 +1,152 @@
+/* CONTAINER */
+
+.description {
+    display: flex;
+    height: 100%;
+}
+
+#noms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+}
+#demande {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-bottom: 2%;
+}
+.speatch {
+    margin-left: 4%;
+    width: 50%;
+}
+
+/* TEXT */
+h1 {
+    font-size: 3.5vw;
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    background: var(--dark-sec);
+    padding: var(--spacing);
+    border-radius: 20px;
+
+}
+#noms p {
+    font-size: 2.5vw;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    background: var(--dark-sec);
+    padding: var(--spacing);
+    border-radius: 20px;
+}
+
+
+#demande p {
+    font-size: 2vw;
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    background: var(--dark-sec);
+    padding: var(--spacing-lg);
+    border-radius: 20px;
+}
+
+/* BACKGROUND */
+#haut {
+    display: flex;
+    justify-content: center;
+    min-height: 93vh;
+    background-image: url("../background/photo-1523633589114-88eaf4b4f1a8.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.My-picture {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.My-picture img {
+    height: 65%;
+    transform: rotate(0.25turn);
+    clip-path: circle(50%);
+
+
+}
+
+
+@media screen and (max-width: 788px) {
+    #haut{
+        min-height: 50vh;
+    }
+    #noms p {
+        font-size: 3vw;
+    }
+
+
+    #demande p {
+        font-size: 2.5vw;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    .My-picture {
+
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .My-picture img {
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    #haut{
+        min-height: 100vh;
+    }
+    .description {
+        display: flex;
+        height: 100vh;
+        flex-direction: column-reverse;
+    }
+    .My-picture {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .My-picture img {
+        height: auto;
+        width: 90%;
+        transform: rotate(0.25turn);
+        clip-path: circle(50%);
+    }
+    .speatch {
+        margin: 4% 0;
+        width: 100%;
+        height: 50%;
+    }
+    #noms p {
+        font-size: 5vw;
+    }
+
+
+    #demande p {
+        font-size: 4vw;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+}

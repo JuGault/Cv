@@ -1,0 +1,282 @@
+.read-skills, .read-projet, .read-experience, .read-infoPerso {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 2%;
+}
+.read-skills p, .experience-item p, .formation-item p {
+    font-size: 30px;
+}
+.read-skills a , .read-projet a, .read-experience a , .read-infoPerso a , .form-create a , .form-update a {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: var(--light);
+    text-align: center;
+
+}
+.read-hard, .all-projets {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Hard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    margin: 5%;
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    padding: 2%;
+    background: var(--dark);
+}
+
+.read-btn {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 3%;
+
+}
+
+.read-btn button {
+    width: 10vw;
+    height: 5vh;
+    background-color: var(--main-color);
+    border: none;
+    color: var(--light);
+    text-decoration: none;
+    border-radius: 28px;
+    font-size: 20px;
+    margin: 2%;
+}
+.read-soft {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-direction: column;
+    font-size: 30px;
+}
+.Soft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 5%;
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    box-shadow: 0px 0px 5px 8px rgba(60,240,228,0.68);
+    padding: 2%;
+    background: var(--dark);
+}
+.projet {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--main-font);
+    color: var(--light);
+    text-transform: capitalize;
+    border: 1px solid var(--main-color);
+    background: #201f1f;
+    padding: 2%;
+    margin: 5%;
+}
+.projet img {
+    width: 100%;
+}
+.all-projets {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projet article {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.read-experience .experience, .read-experience .formation {
+    width: 80vw;
+    align-items: center;
+    margin: 5% 0;
+}
+.read-experience .experience .read-btn , .read-experience .formation .read-btn{
+    flex-direction: row;
+}
+.experience-item {
+    width: 80%;
+    margin: 3%;
+}
+.formation-item {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 3%;
+
+}
+.read-infoPerso .Info-perso {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    flex-wrap: wrap;
+    margin: 2%;
+
+}
+.read-infoPerso .general-info {
+    width: 80%;
+    height: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*FORMULAIRE*/
+
+.form-create, .form-update {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.form-create form , .form-update form {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 90vh;
+}
+.form-create form a , .form-update form a {
+    align-self: center;
+    font-size: 20px;
+    text-align: center;
+}
+.form-create form label , .form-create form input , .form-update form label , .form-update form input{
+    margin: 1%;
+    height: 5%;
+}
+.form-create input, .form-update input {
+    width: 50%;
+    font-size: 25px;
+    font-family: var(--main-font);
+    color: var(--light);
+    text-transform: capitalize;
+    border: 1px solid var(--main-color);
+    background: #201f1f;
+    align-self: center;
+
+}
+.form-create label , .form-update label {
+    font-size: 25px;
+    text-decoration: underline;
+}
+.form-create .submit , .form-update .submit {
+    width: 30%;
+    background-color: var(--main-color);
+    border: none;
+    color: var(--light);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 28px;
+}
+
+@media screen and (max-width: 788px){
+   .read-experience #references {
+       display: flex;
+       align-items: center;
+   }
+    .read-experience .read-btn button , .Soft button , .read-projet button , .read-infoPerso button {
+        width: 20vw;
+
+    }
+    .read-infoPerso .general-info {
+        width: 80%;
+        height: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .read-infoPerso .Info-perso {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        flex-wrap: wrap;
+        margin: 2%;
+
+    }
+    .read-infoPerso .general-info img {
+        display: block;
+    }
+    .read-skills, .read-projet, .read-experience, .read-infoPerso {
+        font-size: 30px;
+    }
+    .read-skills p, .experience-item p, .formation-item p {
+        font-size: 25px;
+    }
+    .form-create input, .form-update input {
+        width: 90%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 414px){
+    .edit a {
+        font-size: 25px;
+        text-align: center;
+    }
+    .read-hard {
+        flex-direction: column;
+    }
+    .Hard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+
+    }
+    .read-experience .read-btn button , .Soft button , .read-projet button , .read-infoPerso button , .read-hard .Hard button {
+        width: 30vw;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .form-create form label, .form-update form label {
+        height: auto;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
+    .read-skills, .read-projet, .read-experience, .read-infoPerso {
+        font-size: 25px;
+    }
+    .read-skills p, .experience-item p, .formation-item p {
+        font-size: 20px;
+    }
+    .form-create input, .form-update input {
+        width: 90%;
+        font-size: 15px;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+    .projet {
+        width: 90%;
+    }
+    .form-create .submit , .form-update .submit {
+        margin: 5%;
+        width: 50vw;
+    }
+}

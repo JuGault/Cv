@@ -1,0 +1,139 @@
+@import "navbar.css";
+@import "contact.css";
+@import "competences.css";
+@import "projets.css";
+@import "footer.css";
+@import "experience.css";
+@import "header.css";
+@import "Edit.css";
+@import "read.css";
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oxanium&display=swap");
+
+
+:root {
+
+    --main-color: rgb(69, 242, 234);
+    --dark: rgb(29, 28, 28);
+    --dark-sec: rgb(0, 0, 0);
+    --light: rgb(255, 255, 255);
+    --main-font: 'Oxanium', cursive;
+    --title-font: 'Permanent Marker', cursive;
+
+
+    --spacing-sm: calc(var(--spacing) / 2);
+    --spacing: 16px;
+    --spacing-lg: calc(var(--spacing) * 2);
+
+    --breakpoint-tablet: 788px;
+    --breakpoint-tablet--breakpoint-mobile: 414px;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    font-family: var(--main-font);
+    background-color: var(--dark-sec);
+    color: var(--light);
+
+}
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1,
+h2 {
+    font-family: var(--title-font);
+    color: var(--light);
+}
+
+.titres{
+
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2vw;
+    text-align: center;
+
+}
+.titres span {
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 3px solid var(--main-color);
+    display: inline-block;
+    margin: 0 12px;
+
+}
+h3 {
+    font-size: 1.5vw;
+}
+
+p {
+    font-size: 1vw;
+}
+section {
+    padding-top: 75px;
+    margin-bottom: var(--spacing-lg);
+    min-height: 100vh;
+}
+
+
+@media screen and (max-width: 788px){
+
+
+    section {
+        padding-top: 32px;
+        margin-bottom: var(--spacing-lg);
+        min-height: 50vh;
+    }
+    h3 {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+    h2 {
+        font-size: 5vw;
+        text-align: center;
+
+    }
+    .titres{
+
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        align-items: center;
+    }
+    .titres span {
+        width: 5vw;
+        height: 5vw;
+        border: 3px solid var(--main-color);
+        display: inline-block;
+        margin: 0 12px;
+
+    }
+}
+
+@media screen and (max-width: 414px){
+    h2 {
+        font-size: 8vw;
+    }
+    h3 {
+        font-size: 6vw;
+    }
+    p {
+        font-size: 4.5vw;
+    }
+}
+
+

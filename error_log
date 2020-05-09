@@ -1,0 +1,868 @@
+[18-Mar-2020 18:36:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/header.php on line 14
+[18-Mar-2020 18:36:42 UTC] PHP Stack trace:
+[18-Mar-2020 18:36:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 18:36:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:18
+[18-Mar-2020 18:36:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/header.php on line 15
+[18-Mar-2020 18:36:42 UTC] PHP Stack trace:
+[18-Mar-2020 18:36:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 18:36:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:18
+[18-Mar-2020 18:36:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/header.php on line 18
+[18-Mar-2020 18:36:42 UTC] PHP Stack trace:
+[18-Mar-2020 18:36:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 18:36:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:18
+[18-Mar-2020 19:45:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 34
+[18-Mar-2020 19:45:15 UTC] PHP Stack trace:
+[18-Mar-2020 19:45:15 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 19:45:15 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[18-Mar-2020 19:45:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 34
+[18-Mar-2020 19:45:15 UTC] PHP Stack trace:
+[18-Mar-2020 19:45:15 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 19:45:15 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[18-Mar-2020 19:46:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 34
+[18-Mar-2020 19:46:13 UTC] PHP Stack trace:
+[18-Mar-2020 19:46:13 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 19:46:13 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[18-Mar-2020 19:46:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 34
+[18-Mar-2020 19:46:13 UTC] PHP Stack trace:
+[18-Mar-2020 19:46:13 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[18-Mar-2020 19:46:13 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:36:03 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/experiences.php on line 32
+[19-Mar-2020 15:36:03 UTC] PHP Stack trace:
+[19-Mar-2020 15:36:03 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:36:03 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:36:03 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/experiences.php on line 32
+[19-Mar-2020 15:36:03 UTC] PHP Stack trace:
+[19-Mar-2020 15:36:03 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:36:03 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:36:03 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/experiences.php on line 32
+[19-Mar-2020 15:36:03 UTC] PHP Stack trace:
+[19-Mar-2020 15:36:03 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:36:03 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:36:03 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/experiences.php on line 32
+[19-Mar-2020 15:36:03 UTC] PHP Stack trace:
+[19-Mar-2020 15:36:03 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:36:03 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:36:27 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/experiences.php on line 32
+[19-Mar-2020 15:36:27 UTC] PHP Stack trace:
+[19-Mar-2020 15:36:27 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:36:27 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:36:27 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/experiences.php on line 32
+[19-Mar-2020 15:36:27 UTC] PHP Stack trace:
+[19-Mar-2020 15:36:27 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:36:27 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:36:27 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/experiences.php on line 32
+[19-Mar-2020 15:36:27 UTC] PHP Stack trace:
+[19-Mar-2020 15:36:27 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:36:27 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:36:27 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/experiences.php on line 32
+[19-Mar-2020 15:36:27 UTC] PHP Stack trace:
+[19-Mar-2020 15:36:27 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:36:27 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:55:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:55:15 UTC] PHP Stack trace:
+[19-Mar-2020 15:55:15 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:55:15 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:55:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:55:15 UTC] PHP Stack trace:
+[19-Mar-2020 15:55:15 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:55:15 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:56:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:56:50 UTC] PHP Stack trace:
+[19-Mar-2020 15:56:50 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:56:50 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:56:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:56:50 UTC] PHP Stack trace:
+[19-Mar-2020 15:56:50 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:56:50 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:56:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:56:50 UTC] PHP Stack trace:
+[19-Mar-2020 15:56:50 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:56:50 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:58:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:58:27 UTC] PHP Stack trace:
+[19-Mar-2020 15:58:27 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:58:27 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:58:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:58:27 UTC] PHP Stack trace:
+[19-Mar-2020 15:58:27 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:58:27 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:58:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:58:27 UTC] PHP Stack trace:
+[19-Mar-2020 15:58:27 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:58:27 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:59:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:59:32 UTC] PHP Stack trace:
+[19-Mar-2020 15:59:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:59:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:59:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:59:32 UTC] PHP Stack trace:
+[19-Mar-2020 15:59:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:59:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 15:59:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 29
+[19-Mar-2020 15:59:32 UTC] PHP Stack trace:
+[19-Mar-2020 15:59:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 15:59:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 16:02:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 20
+[19-Mar-2020 16:02:35 UTC] PHP Stack trace:
+[19-Mar-2020 16:02:35 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 16:02:35 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 16:02:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 20
+[19-Mar-2020 16:02:35 UTC] PHP Stack trace:
+[19-Mar-2020 16:02:35 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 16:02:35 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[19-Mar-2020 16:02:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/experiences.php on line 20
+[19-Mar-2020 16:02:35 UTC] PHP Stack trace:
+[19-Mar-2020 16:02:35 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[19-Mar-2020 16:02:35 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:35
+[22-Mar-2020 15:17:52 UTC] PHP Notice:  Undefined variable: skils in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:17:52 UTC] PHP Stack trace:
+[22-Mar-2020 15:17:52 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:17:52 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:17:52 UTC] PHP Notice:  Undefined variable: skils in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:17:52 UTC] PHP Stack trace:
+[22-Mar-2020 15:17:52 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:17:52 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:17:52 UTC] PHP Notice:  Undefined variable: skils in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:17:52 UTC] PHP Stack trace:
+[22-Mar-2020 15:17:52 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:17:52 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:17:52 UTC] PHP Notice:  Undefined variable: skils in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:17:52 UTC] PHP Stack trace:
+[22-Mar-2020 15:17:52 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:17:52 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:17:52 UTC] PHP Notice:  Undefined variable: skils in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:17:52 UTC] PHP Stack trace:
+[22-Mar-2020 15:17:52 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:17:52 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:17:52 UTC] PHP Notice:  Undefined variable: skils in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:17:52 UTC] PHP Stack trace:
+[22-Mar-2020 15:17:52 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:17:52 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:17:52 UTC] PHP Notice:  Undefined variable: skils in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:17:52 UTC] PHP Stack trace:
+[22-Mar-2020 15:17:52 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:17:52 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:17:52 UTC] PHP Notice:  Undefined variable: skils in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:17:52 UTC] PHP Stack trace:
+[22-Mar-2020 15:17:52 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:17:52 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:26:33 UTC] PHP Stack trace:
+[22-Mar-2020 15:26:33 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:26:33 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:26:33 UTC] PHP Stack trace:
+[22-Mar-2020 15:26:33 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:26:33 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:26:33 UTC] PHP Stack trace:
+[22-Mar-2020 15:26:33 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:26:33 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:26:33 UTC] PHP Stack trace:
+[22-Mar-2020 15:26:33 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:26:33 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:26:33 UTC] PHP Stack trace:
+[22-Mar-2020 15:26:33 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:26:33 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:26:33 UTC] PHP Stack trace:
+[22-Mar-2020 15:26:33 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:26:33 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:26:33 UTC] PHP Stack trace:
+[22-Mar-2020 15:26:33 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:26:33 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:26:33 UTC] PHP Stack trace:
+[22-Mar-2020 15:26:33 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:26:33 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:27:32 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/wilder/quetes/shell/Cv/php/competences.php on line 49
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[22-Mar-2020 15:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 50
+[22-Mar-2020 15:34:29 UTC] PHP Stack trace:
+[22-Mar-2020 15:34:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[22-Mar-2020 15:34:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:37:21 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:37:21 UTC] PHP Stack trace:
+[23-Mar-2020 08:37:21 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:37:21 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:37:21 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:37:21 UTC] PHP Stack trace:
+[23-Mar-2020 08:37:21 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:37:21 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:37:21 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:37:21 UTC] PHP Stack trace:
+[23-Mar-2020 08:37:21 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:37:21 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:37:21 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:37:21 UTC] PHP Stack trace:
+[23-Mar-2020 08:37:21 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:37:21 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:37:21 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:37:21 UTC] PHP Stack trace:
+[23-Mar-2020 08:37:21 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:37:21 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:37:21 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:37:21 UTC] PHP Stack trace:
+[23-Mar-2020 08:37:21 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:37:21 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:37:21 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:37:21 UTC] PHP Stack trace:
+[23-Mar-2020 08:37:21 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:37:21 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:37:21 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:37:21 UTC] PHP Stack trace:
+[23-Mar-2020 08:37:21 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:37:21 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:42:20 UTC] PHP Notice:  Undefined offset: 0 in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:42:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:42:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:42:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:42:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:42:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:42:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:42:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:42:20 UTC] PHP Notice:  Undefined offset: 0 in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:42:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:42:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:42:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:42:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:42:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:42:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:42:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:42:20 UTC] PHP Notice:  Undefined offset: 0 in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:42:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:42:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:42:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:42:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:42:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:42:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:42:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:42:20 UTC] PHP Notice:  Undefined offset: 0 in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:42:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:42:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:42:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:42:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:42:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:42:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:42:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:45:20 UTC] PHP Notice:  Undefined index: précisionskill in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:45:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:45:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:45:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:45:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:45:20 UTC] PHP Stack trace:
+[23-Mar-2020 08:45:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:45:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:46:49 UTC] PHP Notice:  Undefined index: précisionskill in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:46:49 UTC] PHP Stack trace:
+[23-Mar-2020 08:46:49 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:46:49 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:46:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:46:49 UTC] PHP Stack trace:
+[23-Mar-2020 08:46:49 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:46:49 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:57:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:57:34 UTC] PHP Stack trace:
+[23-Mar-2020 08:57:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:57:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:57:34 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:58:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:58:32 UTC] PHP Stack trace:
+[23-Mar-2020 08:58:32 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:58:32 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:58:32 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 08:59:04 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/wilder/quetes/shell/Cv/php/competences.php on line 56
+[23-Mar-2020 08:59:04 UTC] PHP Stack trace:
+[23-Mar-2020 08:59:04 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 08:59:04 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:28
+[23-Mar-2020 08:59:04 UTC] PHP   3. implode() /home/wilder/quetes/shell/Cv/php/competences.php:56
+[23-Mar-2020 22:35:24 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:35:25 UTC] PHP Stack trace:
+[23-Mar-2020 22:35:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:35:25 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:35:25 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:35:25 UTC] PHP Stack trace:
+[23-Mar-2020 22:35:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:35:25 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:35:25 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:35:25 UTC] PHP Stack trace:
+[23-Mar-2020 22:35:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:35:25 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:35:25 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:35:25 UTC] PHP Stack trace:
+[23-Mar-2020 22:35:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:35:25 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:35:25 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:35:25 UTC] PHP Stack trace:
+[23-Mar-2020 22:35:25 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:35:25 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:36:59 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:36:59 UTC] PHP Stack trace:
+[23-Mar-2020 22:36:59 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:36:59 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:36:59 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:36:59 UTC] PHP Stack trace:
+[23-Mar-2020 22:36:59 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:36:59 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:36:59 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:36:59 UTC] PHP Stack trace:
+[23-Mar-2020 22:36:59 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:36:59 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:36:59 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:36:59 UTC] PHP Stack trace:
+[23-Mar-2020 22:36:59 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:36:59 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:36:59 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:36:59 UTC] PHP Stack trace:
+[23-Mar-2020 22:36:59 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:36:59 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:38:16 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:38:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:38:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:38:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:38:16 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:38:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:38:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:38:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:38:16 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:38:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:38:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:38:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:38:16 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:38:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:38:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:38:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:38:16 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:38:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:38:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:38:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:39:16 UTC] PHP Warning:  Illegal offset type in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:39:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:39:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:39:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:39:16 UTC] PHP Warning:  Illegal offset type in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:39:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:39:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:39:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:39:16 UTC] PHP Warning:  Illegal offset type in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:39:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:39:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:39:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:39:16 UTC] PHP Warning:  Illegal offset type in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:39:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:39:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:39:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:39:16 UTC] PHP Warning:  Illegal offset type in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:39:16 UTC] PHP Stack trace:
+[23-Mar-2020 22:39:16 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:39:16 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:40:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:40:42 UTC] PHP Stack trace:
+[23-Mar-2020 22:40:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:40:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:40:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:40:42 UTC] PHP Stack trace:
+[23-Mar-2020 22:40:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:40:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:40:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:40:42 UTC] PHP Stack trace:
+[23-Mar-2020 22:40:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:40:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:40:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:40:42 UTC] PHP Stack trace:
+[23-Mar-2020 22:40:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:40:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:40:42 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:40:42 UTC] PHP Stack trace:
+[23-Mar-2020 22:40:42 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:40:42 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Undefined variable: xy in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Undefined variable: xy in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Undefined variable: xy in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Undefined variable: xy in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 27
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:41:11 UTC] PHP Notice:  Undefined variable: xy in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:41:11 UTC] PHP Stack trace:
+[23-Mar-2020 22:41:11 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:41:11 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:42:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:42:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:42:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:42:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:42:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:42:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:42:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:42:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:42:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:42:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:42:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:42:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:42:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:42:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:42:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:42:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:42:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:42:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:42:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:42:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:43:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:43:54 UTC] PHP Stack trace:
+[23-Mar-2020 22:43:54 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:43:54 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:44:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:44:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:44:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:44:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:44:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:44:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:44:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:44:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:44:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:44:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:44:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:44:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:44:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:44:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:44:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:44:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:44:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:44:28 UTC] PHP Stack trace:
+[23-Mar-2020 22:44:28 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:44:28 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:47:29 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:47:29 UTC] PHP Stack trace:
+[23-Mar-2020 22:47:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:47:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:47:29 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:47:29 UTC] PHP Stack trace:
+[23-Mar-2020 22:47:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:47:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:47:29 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:47:29 UTC] PHP Stack trace:
+[23-Mar-2020 22:47:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:47:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:47:29 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:47:29 UTC] PHP Stack trace:
+[23-Mar-2020 22:47:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:47:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:47:29 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:47:29 UTC] PHP Stack trace:
+[23-Mar-2020 22:47:29 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:47:29 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:49:07 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:49:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:49:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:49:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:49:07 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:49:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:49:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:49:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:49:07 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:49:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:49:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:49:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:49:07 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:49:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:49:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:49:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:49:07 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:49:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:49:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:49:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:51:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:51:20 UTC] PHP Stack trace:
+[23-Mar-2020 22:51:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:51:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:51:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:51:20 UTC] PHP Stack trace:
+[23-Mar-2020 22:51:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:51:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:51:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:51:20 UTC] PHP Stack trace:
+[23-Mar-2020 22:51:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:51:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:51:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:51:20 UTC] PHP Stack trace:
+[23-Mar-2020 22:51:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:51:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:51:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:51:20 UTC] PHP Stack trace:
+[23-Mar-2020 22:51:20 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:51:20 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:52:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:52:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:52:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:52:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:52:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:52:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:52:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:52:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:52:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:52:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:52:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:52:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:52:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:52:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:52:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:52:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:52:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/wilder/quetes/shell/Cv/php/contact.php on line 28
+[23-Mar-2020 22:52:07 UTC] PHP Stack trace:
+[23-Mar-2020 22:52:07 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:52:07 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[23-Mar-2020 22:53:34 UTC] PHP Notice:  Array to string conversion in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[23-Mar-2020 22:53:34 UTC] PHP Stack trace:
+[23-Mar-2020 22:53:34 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[23-Mar-2020 22:53:34 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[24-Mar-2020 07:48:08 UTC] PHP Warning:  Illegal string offset 'info' in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[24-Mar-2020 07:48:08 UTC] PHP Stack trace:
+[24-Mar-2020 07:48:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[24-Mar-2020 07:48:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[24-Mar-2020 07:48:08 UTC] PHP Warning:  Illegal string offset 'info' in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[24-Mar-2020 07:48:08 UTC] PHP Stack trace:
+[24-Mar-2020 07:48:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[24-Mar-2020 07:48:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[24-Mar-2020 07:48:08 UTC] PHP Warning:  Illegal string offset 'info' in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[24-Mar-2020 07:48:08 UTC] PHP Stack trace:
+[24-Mar-2020 07:48:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[24-Mar-2020 07:48:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[24-Mar-2020 07:48:08 UTC] PHP Warning:  Illegal string offset 'info' in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[24-Mar-2020 07:48:08 UTC] PHP Stack trace:
+[24-Mar-2020 07:48:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[24-Mar-2020 07:48:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
+[24-Mar-2020 07:48:08 UTC] PHP Warning:  Illegal string offset 'info' in /home/wilder/quetes/shell/Cv/php/contact.php on line 29
+[24-Mar-2020 07:48:08 UTC] PHP Stack trace:
+[24-Mar-2020 07:48:08 UTC] PHP   1. {main}() /home/wilder/quetes/shell/Cv/index.php:0
+[24-Mar-2020 07:48:08 UTC] PHP   2. include() /home/wilder/quetes/shell/Cv/index.php:40
